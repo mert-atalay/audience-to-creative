@@ -65,6 +65,8 @@ Simple baseline models then check whether tags explain click-through rate, retra
 
 ### 4. Audience intelligence. **Pilot**, and **This repo**
 
+The chatbot and review part of this stage has its own small public version in [voice-of-customer](https://github.com/mert-atalay/voice-of-customer): conversations and reviews tagged for themes, a frustration score per conversation, a sentiment score per location, and a bank of the questions people actually ask.
+
 Evidence from the warehouse and from outside sources (search demand, competitor messaging from official ad libraries and public pages, public statistics) is assembled into need-state cards: what a group of people is trying to get done, what triggers the search, what holds them back, and the words they use.
 
 Two rules keep this from turning into invented personas:
