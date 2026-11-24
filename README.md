@@ -12,6 +12,8 @@ An end-to-end example pipeline: audience intelligence, then creative recommendat
 
 *Further down the same page: the generated variants. Each waits for a person to approve it. One was rejected automatically for promising guaranteed results.*
 
+**The full design behind this example is in [docs/methodology.md](docs/methodology.md):** twelve stages on Google Cloud, including vision tagging, image and video generation, and the review and release steps, with a label on each stage saying whether it runs in production at my job, ran as a pilot, exists in this repository, or is designed only.
+
 ## What it does
 
 ```mermaid
