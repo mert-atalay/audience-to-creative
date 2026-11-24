@@ -1,0 +1,3716 @@
+{
+ "profile": "b2c",
+ "business": "Harbour Fitness",
+ "as_of": "2026-09-30",
+ "records": { "crm": 240, "ad_performance": 84, "site_search": 24, "chat": 130, "survey": 105, "competitor_ads": 44, "reviews": 36, "search_demand": 12 },
+ "segments": [
+  {
+   "id": "students",
+   "label": "Students",
+   "rule": {
+    "plan_interest": [ "student" ]
+   },
+   "size": {
+    "leads": 47,
+    "customers": 8,
+    "share_of_leads": 0.196,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0002", "crm-0006", "crm-0008", "crm-0009", "crm-0010", "crm-0011", "crm-0019", "crm-0029", "crm-0034", "crm-0044", "crm-0048", "crm-0050", "crm-0051", "crm-0052", "crm-0053", "crm-0056", "crm-0063", "crm-0068", "crm-0076", "crm-0079", "crm-0081", "crm-0083", "crm-0084", "crm-0087", "crm-0097", "crm-0103", "crm-0104", "crm-0107", "crm-0124", "crm-0126", "crm-0132", "crm-0135", "crm-0140", "crm-0141", "crm-0143", "crm-0144", "crm-0154", "crm-0156", "crm-0163", "crm-0186", "crm-0196", "crm-0199", "crm-0202", "crm-0215", "crm-0218", "crm-0221", "crm-0232" ],
+      "count": 47
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.17,
+    "monthly_value": 176,
+    "avg_monthly_value": 22.0,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0010", "crm-0056", "crm-0063", "crm-0083", "crm-0104", "crm-0132", "crm-0143", "crm-0154" ],
+      "count": 8
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "paid_social",
+     "leads": 23,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0002", "crm-0006", "crm-0008", "crm-0009", "crm-0010", "crm-0029", "crm-0051", "crm-0052", "crm-0068", "crm-0097", "crm-0104", "crm-0107", "crm-0124", "crm-0132", "crm-0135", "crm-0144", "crm-0154", "crm-0196", "crm-0199", "crm-0215", "crm-0218", "crm-0221", "crm-0232" ],
+       "count": 23
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 10,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0011", "crm-0019", "crm-0044", "crm-0048", "crm-0063", "crm-0076", "crm-0081", "crm-0084", "crm-0126", "crm-0140" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "channel": "paid_search",
+     "leads": 8,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0056", "crm-0079", "crm-0083", "crm-0087", "crm-0103", "crm-0141", "crm-0143", "crm-0186" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "channel": "organic_search",
+     "leads": 6,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0034", "crm-0050", "crm-0053", "crm-0156", "crm-0163", "crm-0202" ],
+       "count": 6
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "too_expensive",
+     "count": 5,
+     "share": 0.357,
+     "answered_by": "price_value",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0029", "crm-0068", "crm-0076", "crm-0087", "crm-0199" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "reason": "felt_intimidated",
+     "count": 3,
+     "share": 0.214,
+     "answered_by": "beginner_support",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0079", "crm-0097", "crm-0221" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "contract_lockin",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "no_contract",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0009", "crm-0019" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "lost_interest",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "classes",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0053", "crm-0140" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "no_progress",
+     "count": 1,
+     "share": 0.071,
+     "answered_by": "coaching",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0196" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "reason": "too_crowded",
+     "count": 1,
+     "share": 0.071,
+     "answered_by": "open_24_7",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0048" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 10,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0014", "srv-0019", "srv-0033", "srv-0036", "srv-0043", "srv-0056", "srv-0063", "srv-0068", "srv-0088", "srv-0089" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0003", "srv-0034", "srv-0042", "srv-0045", "srv-0053", "srv-0069", "srv-0094" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0025", "srv-0031", "srv-0037", "srv-0102" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0010", "srv-0018", "srv-0096" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0068", "srv-0086" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0061" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 13,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0012", "chat-0018", "chat-0047", "chat-0056", "chat-0065", "chat-0073", "chat-0075", "chat-0078", "chat-0081", "chat-0089", "chat-0119" ],
+       "count": 11
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0009", "crm-0019" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0024", "chat-0043", "chat-0052", "chat-0110", "chat-0116" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0029", "crm-0068", "crm-0076", "crm-0087", "crm-0199" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0050" ],
+       "count": 1
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0079", "crm-0097", "crm-0221" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0038", "chat-0053" ],
+       "count": 2
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0053", "crm-0140" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0016" ],
+       "count": 1
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0196" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0048" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "price_value",
+     "phrase": "joining fee",
+     "count": 16,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0017", "chat-0024", "chat-0060", "chat-0114", "chat-0116" ],
+       "count": 5
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-002" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0014", "srv-0033", "srv-0056", "srv-0063", "srv-0088", "srv-0089" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "monthly fee",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0043", "chat-0066", "chat-0110" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0019", "srv-0043" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "no joining",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0014", "srv-0033", "srv-0056", "srv-0063", "srv-0088", "srv-0089" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "cancel anytime",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0034", "chat-0075", "chat-0086", "chat-0089" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0034", "srv-0042", "srv-0045", "srv-0069" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "no contract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-024", "rev-029", "rev-034" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-006" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "minimum contract length",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0012", "chat-0019", "chat-0065", "chat-0073", "chat-0078", "chat-0081", "chat-0083", "chat-0117" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "beginner friendly",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0051", "chat-0071" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0086" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "staff were kind",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "complete beginner",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "open 24/7",
+     "count": 12,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0100", "chat-0130" ],
+       "count": 2
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0025", "srv-0031" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "quiet at night",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0037", "srv-0102" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "after work",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0030", "chat-0040", "chat-0127" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-012", "rev-030" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "spin classes",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0120", "chat-0125" ],
+       "count": 2
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-009", "rev-026", "rev-031" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "classes included",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0020", "chat-0038", "chat-0053" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "classes and friendly",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-009", "rev-026", "rev-031" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "personal training",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0062" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0010", "srv-0018" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "built a programme",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-013", "rev-014", "rev-023" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "programme that works",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-013", "rev-014", "rev-023" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "score": 0.2337,
+     "parts": { "search_demand": 0.196, "on_site": 0.1772, "segment_voice": 0.3279 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0017", "chat-0024", "chat-0039", "chat-0043", "chat-0051", "chat-0052", "chat-0060", "chat-0066", "chat-0071", "chat-0110", "chat-0114", "chat-0116" ],
+       "count": 13
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0029", "crm-0068", "crm-0076", "crm-0087", "crm-0199" ],
+       "count": 5
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003", "ss-004" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0014", "srv-0019", "srv-0033", "srv-0036", "srv-0043", "srv-0056", "srv-0063", "srv-0068", "srv-0088", "srv-0089" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "score": 0.2263,
+     "parts": { "search_demand": 0.1893, "on_site": 0.1616, "segment_voice": 0.3279 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0012", "chat-0018", "chat-0019", "chat-0034", "chat-0047", "chat-0056", "chat-0065", "chat-0073", "chat-0075", "chat-0078", "chat-0081", "chat-0083", "chat-0086", "chat-0089", "chat-0117", "chat-0119" ],
+       "count": 16
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0009", "crm-0019" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0003", "srv-0034", "srv-0042", "srv-0045", "srv-0053", "srv-0069", "srv-0094" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "score": 0.2004,
+     "parts": { "search_demand": 0.2478, "on_site": 0.2551, "segment_voice": 0.0984 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0050", "chat-0051", "chat-0061", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0079", "crm-0097", "crm-0221" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0068", "srv-0086" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "score": 0.1221,
+     "parts": { "search_demand": 0.1342, "on_site": 0.1501, "segment_voice": 0.082 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0020", "chat-0026", "chat-0036", "chat-0038", "chat-0053", "chat-0120", "chat-0125" ],
+       "count": 8
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0053", "crm-0140" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019", "ss-020" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0061" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "score": 0.1198,
+     "parts": { "search_demand": 0.1331, "on_site": 0.1444, "segment_voice": 0.082 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0030", "chat-0040", "chat-0084", "chat-0100", "chat-0101", "chat-0127", "chat-0130" ],
+       "count": 8
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0048" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-013", "ss-014", "ss-015", "ss-016" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0025", "srv-0031", "srv-0037", "srv-0102" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "score": 0.0977,
+     "parts": { "search_demand": 0.0995, "on_site": 0.1116, "segment_voice": 0.082 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0016", "chat-0062", "chat-0091" ],
+       "count": 3
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0196" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021", "ss-022", "ss-023", "ss-024" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0010", "srv-0018", "srv-0096" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "ads": 10,
+     "share": 0.2857,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013", "comp-014", "comp-016", "comp-018", "comp-023", "comp-028", "comp-032", "comp-039", "comp-042", "comp-043" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "ads": 8,
+     "share": 0.2286,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-009", "comp-019", "comp-020", "comp-021", "comp-024", "comp-033", "comp-035", "comp-041" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "ads": 6,
+     "share": 0.1714,
+     "advertisers": [ "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-002", "comp-007", "comp-017", "comp-022", "comp-027", "comp-029" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "ads": 6,
+     "share": 0.1714,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-001", "comp-004", "comp-006", "comp-015", "comp-030", "comp-044" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "ads": 5,
+     "share": 0.1429,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "ads": 0,
+     "share": 0.0,
+     "advertisers": [],
+     "evidence": []
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "demand": 0.2004,
+     "competitor_share": 0.0,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0050", "chat-0051", "chat-0061", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0079", "crm-0097", "crm-0221" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0068", "srv-0086" ],
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "families",
+   "label": "Families",
+   "rule": {
+    "plan_interest": [ "family" ]
+   },
+   "size": {
+    "leads": 46,
+    "customers": 23,
+    "share_of_leads": 0.192,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0001", "crm-0004", "crm-0023", "crm-0024", "crm-0032", "crm-0036", "crm-0042", "crm-0045", "crm-0046", "crm-0047", "crm-0049", "crm-0057", "crm-0059", "crm-0060", "crm-0065", "crm-0069", "crm-0072", "crm-0078", "crm-0092", "crm-0105", "crm-0106", "crm-0111", "crm-0115", "crm-0118", "crm-0119", "crm-0137", "crm-0151", "crm-0153", "crm-0155", "crm-0159", "crm-0169", "crm-0170", "crm-0171", "crm-0177", "crm-0191", "crm-0192", "crm-0201", "crm-0209", "crm-0217", "crm-0224", "crm-0225", "crm-0226", "crm-0228", "crm-0233", "crm-0235", "crm-0238" ],
+      "count": 46
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.5,
+    "monthly_value": 1357,
+    "avg_monthly_value": 59.0,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0001", "crm-0023", "crm-0036", "crm-0046", "crm-0047", "crm-0049", "crm-0060", "crm-0072", "crm-0105", "crm-0106", "crm-0111", "crm-0119", "crm-0151", "crm-0169", "crm-0170", "crm-0171", "crm-0191", "crm-0192", "crm-0201", "crm-0225", "crm-0233", "crm-0235", "crm-0238" ],
+      "count": 23
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "referral",
+     "leads": 19,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0024", "crm-0032", "crm-0036", "crm-0049", "crm-0057", "crm-0059", "crm-0111", "crm-0119", "crm-0151", "crm-0153", "crm-0155", "crm-0159", "crm-0169", "crm-0191", "crm-0192", "crm-0201", "crm-0224", "crm-0225", "crm-0226" ],
+       "count": 19
+      }
+     ]
+    },
+    {
+     "channel": "paid_social",
+     "leads": 16,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0001", "crm-0004", "crm-0045", "crm-0060", "crm-0069", "crm-0072", "crm-0078", "crm-0105", "crm-0115", "crm-0118", "crm-0137", "crm-0170", "crm-0177", "crm-0209", "crm-0228", "crm-0238" ],
+       "count": 16
+      }
+     ]
+    },
+    {
+     "channel": "organic_search",
+     "leads": 8,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0023", "crm-0046", "crm-0047", "crm-0065", "crm-0092", "crm-0106", "crm-0233", "crm-0235" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "channel": "paid_search",
+     "leads": 3,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0042", "crm-0171", "crm-0217" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "too_expensive",
+     "count": 3,
+     "share": 0.375,
+     "answered_by": "price_value",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0004", "crm-0078", "crm-0224" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "moved_or_closed",
+     "count": 2,
+     "share": 0.25,
+     "answered_by": null,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0024", "crm-0153" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "too_crowded",
+     "count": 2,
+     "share": 0.25,
+     "answered_by": "open_24_7",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0042", "crm-0057" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "lost_interest",
+     "count": 1,
+     "share": 0.125,
+     "answered_by": "classes",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0032" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0022", "srv-0044", "srv-0067", "srv-0072", "srv-0104", "srv-0105" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0028", "srv-0051", "srv-0058", "srv-0097", "srv-0103" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0001", "srv-0020", "srv-0074", "srv-0083", "srv-0099" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0016", "srv-0017", "srv-0073", "srv-0099" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0012" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0007", "chat-0069", "chat-0108" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0004", "crm-0078", "crm-0224" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0023", "chat-0067", "chat-0128" ],
+       "count": 3
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0042", "crm-0057" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0035", "chat-0082" ],
+       "count": 2
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0032" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0009", "chat-0059" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0028", "chat-0064" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0079" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "price_value",
+     "phrase": "joining fee",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0017", "chat-0060", "chat-0114" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "monthly fee",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0066" ],
+       "count": 2
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0083" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "off peak price",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0007", "chat-0039", "chat-0069", "chat-0108" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "cancel anytime",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0028", "chat-0034", "chat-0086" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0022", "srv-0067", "srv-0072", "srv-0105" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "no contract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-024", "rev-029", "rev-034" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-006" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "able to cancel",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0022", "srv-0067", "srv-0072", "srv-0105" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "beginner friendly",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0051", "chat-0071" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0016", "srv-0073" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "staff were kind",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "complete beginner",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "open 24/7",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0100", "chat-0130" ],
+       "count": 2
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "after work",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0023", "chat-0030", "chat-0040", "chat-0127" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-012", "rev-030" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "24/7 and quiet",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "spin classes",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0035", "chat-0082", "chat-0120", "chat-0125" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-009", "rev-026", "rev-031" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "yoga classes",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "site_search",
+       "ids": [ "ss-018" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0028", "srv-0051" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "classes on weekends",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0035", "chat-0082", "chat-0120", "chat-0125" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "personal training",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0062" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "built a programme",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-013", "rev-014", "rev-023" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "programme that works",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-013", "rev-014", "rev-023" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "score": 0.2196,
+     "parts": { "search_demand": 0.196, "on_site": 0.1772, "segment_voice": 0.2857 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0005", "chat-0007", "chat-0017", "chat-0039", "chat-0051", "chat-0060", "chat-0066", "chat-0069", "chat-0071", "chat-0108", "chat-0114" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0004", "crm-0078", "crm-0224" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003", "ss-004" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0001", "srv-0020", "srv-0074", "srv-0083", "srv-0099" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "score": 0.2073,
+     "parts": { "search_demand": 0.2478, "on_site": 0.2551, "segment_voice": 0.119 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0051", "chat-0061", "chat-0071", "chat-0072", "chat-0079", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0016", "srv-0017", "srv-0073", "srv-0099" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "score": 0.1884,
+     "parts": { "search_demand": 0.1893, "on_site": 0.1616, "segment_voice": 0.2143 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0019", "chat-0028", "chat-0034", "chat-0064", "chat-0083", "chat-0086", "chat-0117" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0022", "srv-0044", "srv-0067", "srv-0072", "srv-0104", "srv-0105" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "score": 0.1583,
+     "parts": { "search_demand": 0.1342, "on_site": 0.1501, "segment_voice": 0.1905 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0020", "chat-0026", "chat-0035", "chat-0036", "chat-0082", "chat-0120", "chat-0125" ],
+       "count": 8
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0032" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019", "ss-020" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0028", "srv-0051", "srv-0058", "srv-0097", "srv-0103" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "score": 0.1322,
+     "parts": { "search_demand": 0.1331, "on_site": 0.1444, "segment_voice": 0.119 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0023", "chat-0030", "chat-0040", "chat-0067", "chat-0084", "chat-0100", "chat-0101", "chat-0127", "chat-0128", "chat-0130" ],
+       "count": 11
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0042", "crm-0057" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-013", "ss-014", "ss-015", "ss-016" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "score": 0.0942,
+     "parts": { "search_demand": 0.0995, "on_site": 0.1116, "segment_voice": 0.0714 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0009", "chat-0059", "chat-0062", "chat-0091" ],
+       "count": 4
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021", "ss-022", "ss-023", "ss-024" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0012" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "ads": 12,
+     "share": 0.3243,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-011", "comp-012", "comp-013", "comp-014", "comp-016", "comp-018", "comp-023", "comp-028", "comp-032", "comp-039", "comp-042", "comp-043" ],
+       "count": 12
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "ads": 8,
+     "share": 0.2162,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-009", "comp-019", "comp-020", "comp-021", "comp-024", "comp-033", "comp-035", "comp-041" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "ads": 6,
+     "share": 0.1622,
+     "advertisers": [ "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-002", "comp-007", "comp-017", "comp-022", "comp-027", "comp-029" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "ads": 6,
+     "share": 0.1622,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-001", "comp-006", "comp-008", "comp-015", "comp-030", "comp-044" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "ads": 5,
+     "share": 0.1351,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "ads": 0,
+     "share": 0.0,
+     "advertisers": [],
+     "evidence": []
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "demand": 0.2073,
+     "competitor_share": 0.0,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0051", "chat-0061", "chat-0071", "chat-0072", "chat-0079", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0016", "srv-0017", "srv-0073", "srv-0099" ],
+       "count": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "new_starters",
+   "label": "New starters",
+   "rule": {
+    "experience": [ "none" ]
+   },
+   "size": {
+    "leads": 56,
+    "customers": 12,
+    "share_of_leads": 0.233,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0005", "crm-0007", "crm-0015", "crm-0016", "crm-0027", "crm-0030", "crm-0035", "crm-0037", "crm-0041", "crm-0043", "crm-0054", "crm-0055", "crm-0058", "crm-0067", "crm-0070", "crm-0073", "crm-0075", "crm-0077", "crm-0080", "crm-0082", "crm-0085", "crm-0088", "crm-0093", "crm-0098", "crm-0100", "crm-0101", "crm-0109", "crm-0112", "crm-0114", "crm-0117", "crm-0121", "crm-0122", "crm-0131", "crm-0133", "crm-0139", "crm-0142", "crm-0145", "crm-0147", "crm-0149", "crm-0152", "crm-0162", "crm-0165", "crm-0173", "crm-0175", "crm-0181", "crm-0183", "crm-0187", "crm-0194", "crm-0195", "crm-0197", "crm-0198", "crm-0212", "crm-0214", "crm-0229", "crm-0236", "crm-0239" ],
+      "count": 56
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.214,
+    "monthly_value": 388,
+    "avg_monthly_value": 32.33,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0016", "crm-0035", "crm-0037", "crm-0067", "crm-0088", "crm-0109", "crm-0117", "crm-0147", "crm-0162", "crm-0187", "crm-0194", "crm-0212" ],
+      "count": 12
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "paid_social",
+     "leads": 18,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0007", "crm-0035", "crm-0043", "crm-0058", "crm-0070", "crm-0098", "crm-0101", "crm-0121", "crm-0139", "crm-0145", "crm-0152", "crm-0162", "crm-0175", "crm-0187", "crm-0198", "crm-0214", "crm-0229", "crm-0236" ],
+       "count": 18
+      }
+     ]
+    },
+    {
+     "channel": "paid_search",
+     "leads": 17,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0015", "crm-0041", "crm-0054", "crm-0067", "crm-0073", "crm-0077", "crm-0080", "crm-0088", "crm-0109", "crm-0114", "crm-0117", "crm-0131", "crm-0133", "crm-0147", "crm-0195", "crm-0197", "crm-0212" ],
+       "count": 17
+      }
+     ]
+    },
+    {
+     "channel": "organic_search",
+     "leads": 11,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0005", "crm-0027", "crm-0030", "crm-0082", "crm-0093", "crm-0122", "crm-0142", "crm-0149", "crm-0173", "crm-0194", "crm-0239" ],
+       "count": 11
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 10,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0016", "crm-0037", "crm-0055", "crm-0075", "crm-0085", "crm-0100", "crm-0112", "crm-0165", "crm-0181", "crm-0183" ],
+       "count": 10
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "felt_intimidated",
+     "count": 7,
+     "share": 0.35,
+     "answered_by": "beginner_support",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0030", "crm-0058", "crm-0073", "crm-0075", "crm-0085", "crm-0149", "crm-0183" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "reason": "no_progress",
+     "count": 4,
+     "share": 0.2,
+     "answered_by": "coaching",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0041", "crm-0152", "crm-0198", "crm-0229" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "reason": "contract_lockin",
+     "count": 3,
+     "share": 0.15,
+     "answered_by": "no_contract",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0114", "crm-0142", "crm-0181" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "lost_interest",
+     "count": 2,
+     "share": 0.1,
+     "answered_by": "classes",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0122", "crm-0236" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "moved_or_closed",
+     "count": 2,
+     "share": 0.1,
+     "answered_by": null,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0077", "crm-0239" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "too_expensive",
+     "count": 2,
+     "share": 0.1,
+     "answered_by": "price_value",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0007", "crm-0043" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 9,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0011", "srv-0021", "srv-0035", "srv-0038", "srv-0055", "srv-0060", "srv-0076", "srv-0085", "srv-0087" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0013", "srv-0032", "srv-0048", "srv-0092", "srv-0100" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0002", "srv-0041", "srv-0064", "srv-0065", "srv-0078" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0064", "srv-0065", "srv-0093" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0005", "srv-0062" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 13,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0049", "chat-0054", "chat-0068", "chat-0070", "chat-0103", "chat-0105" ],
+       "count": 6
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0030", "crm-0058", "crm-0073", "crm-0075", "crm-0085", "crm-0149", "crm-0183" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0046", "chat-0074", "chat-0113" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0041", "crm-0152", "crm-0198", "crm-0229" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0010", "chat-0048", "chat-0099", "chat-0106" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0114", "crm-0142", "crm-0181" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0013", "chat-0055", "chat-0122", "chat-0126" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0122", "crm-0236" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0027", "chat-0054", "chat-0092", "chat-0129" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0007", "crm-0043" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0037", "chat-0077" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "price_value",
+     "phrase": "monthly fee",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0066", "chat-0129" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0093" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "joining fee",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0017", "chat-0027", "chat-0060", "chat-0092", "chat-0114" ],
+       "count": 5
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "student discount",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0066" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-004" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "cancel anytime",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0034", "chat-0086", "chat-0099" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0076", "srv-0085" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "freeze my membership",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0010", "chat-0048" ],
+       "count": 2
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0035", "srv-0087" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "no contract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-024", "rev-029", "rev-034" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-006" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "beginner friendly",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0051", "chat-0054", "chat-0071" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "induction for beginners",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0041", "chat-0070", "chat-0072", "chat-0098", "chat-0103", "chat-0105" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "staff were kind",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "open 24/7",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0100", "chat-0130" ],
+       "count": 2
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "after work",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0030", "chat-0037", "chat-0040", "chat-0077", "chat-0127" ],
+       "count": 5
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-012", "rev-030" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "24/7 and quiet",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "spin classes",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0120", "chat-0125", "chat-0126" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-009", "rev-026", "rev-031" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "class timetable",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0122" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "yoga classes",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "site_search",
+       "ids": [ "ss-018" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0062" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "personal training",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0062", "chat-0074", "chat-0113" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "coach to help",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0013", "srv-0032", "srv-0048", "srv-0100" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "help me get",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0013", "srv-0032", "srv-0048", "srv-0100" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "score": 0.2572,
+     "parts": { "search_demand": 0.2478, "on_site": 0.2551, "segment_voice": 0.2687 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0049", "chat-0051", "chat-0054", "chat-0061", "chat-0068", "chat-0070", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098", "chat-0103", "chat-0105" ],
+       "count": 17
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0030", "crm-0058", "crm-0073", "crm-0075", "crm-0085", "crm-0149", "crm-0183" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0002", "srv-0041", "srv-0064", "srv-0065", "srv-0078" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "score": 0.1966,
+     "parts": { "search_demand": 0.1893, "on_site": 0.1616, "segment_voice": 0.2388 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0010", "chat-0019", "chat-0034", "chat-0048", "chat-0083", "chat-0086", "chat-0099", "chat-0106", "chat-0117" ],
+       "count": 9
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0114", "crm-0142", "crm-0181" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0011", "srv-0021", "srv-0035", "srv-0038", "srv-0055", "srv-0060", "srv-0076", "srv-0085", "srv-0087" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "score": 0.1692,
+     "parts": { "search_demand": 0.196, "on_site": 0.1772, "segment_voice": 0.1343 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0017", "chat-0027", "chat-0039", "chat-0051", "chat-0054", "chat-0060", "chat-0066", "chat-0071", "chat-0092", "chat-0114", "chat-0129" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0007", "crm-0043" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003", "ss-004" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0064", "srv-0065", "srv-0093" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "score": 0.14,
+     "parts": { "search_demand": 0.0995, "on_site": 0.1116, "segment_voice": 0.209 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0046", "chat-0062", "chat-0074", "chat-0091", "chat-0113" ],
+       "count": 6
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0041", "crm-0152", "crm-0198", "crm-0229" ],
+       "count": 4
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021", "ss-022", "ss-023", "ss-024" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0013", "srv-0032", "srv-0048", "srv-0092", "srv-0100" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "score": 0.1346,
+     "parts": { "search_demand": 0.1342, "on_site": 0.1501, "segment_voice": 0.1194 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0013", "chat-0014", "chat-0020", "chat-0026", "chat-0036", "chat-0055", "chat-0120", "chat-0122", "chat-0125", "chat-0126" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0122", "crm-0236" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019", "ss-020" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0005", "srv-0062" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "score": 0.1025,
+     "parts": { "search_demand": 0.1331, "on_site": 0.1444, "segment_voice": 0.0299 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0030", "chat-0037", "chat-0040", "chat-0077", "chat-0084", "chat-0100", "chat-0101", "chat-0127", "chat-0130" ],
+       "count": 10
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-013", "ss-014", "ss-015", "ss-016" ],
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "ads": 13,
+     "share": 0.2889,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-005", "comp-013", "comp-014", "comp-016", "comp-018", "comp-023", "comp-028", "comp-032", "comp-037", "comp-038", "comp-039", "comp-042", "comp-043" ],
+       "count": 13
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "ads": 9,
+     "share": 0.2,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-009", "comp-010", "comp-019", "comp-020", "comp-021", "comp-024", "comp-033", "comp-035", "comp-041" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "ads": 7,
+     "share": 0.1556,
+     "advertisers": [ "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-002", "comp-007", "comp-017", "comp-022", "comp-025", "comp-027", "comp-029" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "ads": 6,
+     "share": 0.1333,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-005", "comp-010", "comp-025", "comp-031", "comp-037", "comp-038" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "ads": 5,
+     "share": 0.1111,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "ads": 5,
+     "share": 0.1111,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-001", "comp-006", "comp-015", "comp-030", "comp-044" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "demand": 0.1966,
+     "competitor_share": 0.1111,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0010", "chat-0019", "chat-0034", "chat-0048", "chat-0083", "chat-0086", "chat-0099", "chat-0106", "chat-0117" ],
+       "count": 9
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0114", "crm-0142", "crm-0181" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0011", "srv-0021", "srv-0035", "srv-0038", "srv-0055", "srv-0060", "srv-0076", "srv-0085", "srv-0087" ],
+       "count": 9
+      },
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+       "count": 5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "regulars",
+   "label": "Experienced regulars",
+   "rule": "everything else",
+   "size": {
+    "leads": 91,
+    "customers": 42,
+    "share_of_leads": 0.379,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0003", "crm-0012", "crm-0013", "crm-0014", "crm-0017", "crm-0018", "crm-0020", "crm-0021", "crm-0022", "crm-0025", "crm-0026", "crm-0028", "crm-0031", "crm-0033", "crm-0038", "crm-0039", "crm-0040", "crm-0061", "crm-0062", "crm-0064", "crm-0066", "crm-0071", "crm-0074", "crm-0086", "crm-0089", "crm-0090", "crm-0091", "crm-0094", "crm-0095", "crm-0096", "crm-0099", "crm-0102", "crm-0108", "crm-0110", "crm-0113", "crm-0116", "crm-0120", "crm-0123", "crm-0125", "crm-0127", "crm-0128", "crm-0129", "crm-0130", "crm-0134", "crm-0136", "crm-0138", "crm-0146", "crm-0148", "crm-0150", "crm-0157", "crm-0158", "crm-0160", "crm-0161", "crm-0164", "crm-0166", "crm-0167", "crm-0168", "crm-0172", "crm-0174", "crm-0176", "crm-0178", "crm-0179", "crm-0180", "crm-0182", "crm-0184", "crm-0185", "crm-0188", "crm-0189", "crm-0190", "crm-0193", "crm-0200", "crm-0203", "crm-0204", "crm-0205", "crm-0206", "crm-0207", "crm-0208", "crm-0210", "crm-0211", "crm-0213", "crm-0216", "crm-0219", "crm-0220", "crm-0222", "crm-0223", "crm-0227", "crm-0230", "crm-0231", "crm-0234", "crm-0237", "crm-0240" ],
+      "count": 91
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.462,
+    "monthly_value": 1388,
+    "avg_monthly_value": 33.05,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0003", "crm-0012", "crm-0017", "crm-0020", "crm-0021", "crm-0022", "crm-0025", "crm-0026", "crm-0028", "crm-0031", "crm-0039", "crm-0061", "crm-0074", "crm-0086", "crm-0090", "crm-0095", "crm-0102", "crm-0110", "crm-0113", "crm-0120", "crm-0127", "crm-0129", "crm-0130", "crm-0134", "crm-0148", "crm-0157", "crm-0160", "crm-0164", "crm-0167", "crm-0176", "crm-0179", "crm-0182", "crm-0189", "crm-0190", "crm-0203", "crm-0204", "crm-0208", "crm-0213", "crm-0216", "crm-0223", "crm-0237", "crm-0240" ],
+      "count": 42
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "paid_search",
+     "leads": 39,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0013", "crm-0020", "crm-0031", "crm-0033", "crm-0038", "crm-0039", "crm-0040", "crm-0066", "crm-0071", "crm-0074", "crm-0086", "crm-0091", "crm-0096", "crm-0108", "crm-0110", "crm-0120", "crm-0127", "crm-0130", "crm-0138", "crm-0146", "crm-0148", "crm-0150", "crm-0160", "crm-0172", "crm-0174", "crm-0179", "crm-0188", "crm-0189", "crm-0200", "crm-0205", "crm-0208", "crm-0210", "crm-0219", "crm-0220", "crm-0223", "crm-0227", "crm-0230", "crm-0234", "crm-0240" ],
+       "count": 39
+      }
+     ]
+    },
+    {
+     "channel": "organic_search",
+     "leads": 22,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0003", "crm-0017", "crm-0018", "crm-0021", "crm-0022", "crm-0026", "crm-0061", "crm-0090", "crm-0116", "crm-0123", "crm-0134", "crm-0164", "crm-0178", "crm-0180", "crm-0185", "crm-0190", "crm-0203", "crm-0204", "crm-0213", "crm-0216", "crm-0222", "crm-0231" ],
+       "count": 22
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 18,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0014", "crm-0028", "crm-0062", "crm-0064", "crm-0089", "crm-0113", "crm-0129", "crm-0136", "crm-0157", "crm-0158", "crm-0161", "crm-0167", "crm-0168", "crm-0176", "crm-0182", "crm-0184", "crm-0206", "crm-0237" ],
+       "count": 18
+      }
+     ]
+    },
+    {
+     "channel": "paid_social",
+     "leads": 12,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0012", "crm-0025", "crm-0094", "crm-0095", "crm-0099", "crm-0102", "crm-0125", "crm-0128", "crm-0166", "crm-0193", "crm-0207", "crm-0211" ],
+       "count": 12
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "contract_lockin",
+     "count": 3,
+     "share": 0.231,
+     "answered_by": "no_contract",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0125", "crm-0161", "crm-0172" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "no_progress",
+     "count": 2,
+     "share": 0.154,
+     "answered_by": "coaching",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0018", "crm-0231" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "no_time",
+     "count": 2,
+     "share": 0.154,
+     "answered_by": "open_24_7",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0089", "crm-0123" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "too_expensive",
+     "count": 2,
+     "share": 0.154,
+     "answered_by": "price_value",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0062", "crm-0180" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "felt_intimidated",
+     "count": 1,
+     "share": 0.077,
+     "answered_by": "beginner_support",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0174" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "reason": "lost_interest",
+     "count": 1,
+     "share": 0.077,
+     "answered_by": "classes",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "reason": "moved_or_closed",
+     "count": 1,
+     "share": 0.077,
+     "answered_by": null,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0146" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "reason": "too_crowded",
+     "count": 1,
+     "share": 0.077,
+     "answered_by": "open_24_7",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0206" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 13,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0027", "srv-0029", "srv-0039", "srv-0040", "srv-0046", "srv-0047", "srv-0050", "srv-0052", "srv-0071", "srv-0081", "srv-0084", "srv-0095" ],
+       "count": 13
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 9,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0024", "srv-0026", "srv-0030", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0079", "srv-0082" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0006", "srv-0075", "srv-0077", "srv-0080", "srv-0090", "srv-0101" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0007", "srv-0059", "srv-0091", "srv-0098" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0004", "srv-0008", "srv-0066" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "mentions": 13,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0015", "chat-0044", "chat-0095", "chat-0097", "chat-0102", "chat-0104", "chat-0109", "chat-0111", "chat-0115", "chat-0124" ],
+       "count": 11
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0018", "crm-0231" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "mentions": 11,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002", "chat-0022", "chat-0031", "chat-0087", "chat-0090", "chat-0093", "chat-0094", "chat-0118" ],
+       "count": 8
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0089", "crm-0123", "crm-0206" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "mentions": 9,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0025", "chat-0029", "chat-0032", "chat-0063", "chat-0076", "chat-0096", "chat-0107", "chat-0123" ],
+       "count": 8
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "mentions": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0045", "chat-0058", "chat-0112", "chat-0121" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0125", "crm-0161", "crm-0172" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0008", "chat-0080" ],
+       "count": 2
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0062", "crm-0180" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0057" ],
+       "count": 1
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0174" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "price_value",
+     "phrase": "joining fee",
+     "count": 11,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0017", "chat-0060", "chat-0080", "chat-0114" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-002" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0075", "srv-0080" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "monthly fee",
+     "count": 9,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0008", "chat-0066" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0077", "srv-0090" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "phrase": "no joining",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-007", "rev-020", "rev-021", "rev-033" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0075", "srv-0080" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "no contract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-024", "rev-029", "rev-034" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-006" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "cancel anytime",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0034", "chat-0086" ],
+       "count": 2
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0091" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "phrase": "minimum contract length",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0019", "chat-0033", "chat-0045", "chat-0083", "chat-0112", "chat-0117" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "beginner friendly",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0051", "chat-0071" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "induction for beginners",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0041", "chat-0057", "chat-0072", "chat-0098" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "phrase": "staff were kind",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "open 24/7",
+     "count": 15,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0087", "chat-0100", "chat-0118", "chat-0130" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0029", "srv-0040" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "quiet at night",
+     "count": 17,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0027", "srv-0039", "srv-0046", "srv-0050", "srv-0052", "srv-0071", "srv-0081", "srv-0084", "srv-0095" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "phrase": "after work",
+     "count": 9,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002", "chat-0030", "chat-0040", "chat-0090", "chat-0093", "chat-0094", "chat-0127" ],
+       "count": 7
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-012", "rev-030" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "spin classes",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0063", "chat-0120", "chat-0123", "chat-0125" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-009", "rev-026", "rev-031" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "class timetable",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0096" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "phrase": "yoga classes",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "site_search",
+       "ids": [ "ss-018" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "personal training",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0015", "chat-0044", "chat-0062", "chat-0109", "chat-0124" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0024" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "programme and progress",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0026", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0082" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "phrase": "progress checks keep",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0026", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0082" ],
+       "count": 6
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "score": 0.1901,
+     "parts": { "search_demand": 0.1331, "on_site": 0.1444, "segment_voice": 0.2927 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002", "chat-0011", "chat-0022", "chat-0030", "chat-0031", "chat-0040", "chat-0084", "chat-0087", "chat-0090", "chat-0093", "chat-0094", "chat-0100", "chat-0101", "chat-0118", "chat-0127", "chat-0130" ],
+       "count": 16
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0089", "crm-0123", "crm-0206" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-013", "ss-014", "ss-015", "ss-016" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0027", "srv-0029", "srv-0039", "srv-0040", "srv-0046", "srv-0047", "srv-0050", "srv-0052", "srv-0071", "srv-0081", "srv-0084", "srv-0095" ],
+       "count": 13
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "score": 0.1758,
+     "parts": { "search_demand": 0.2478, "on_site": 0.2551, "segment_voice": 0.0244 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0051", "chat-0057", "chat-0061", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0174" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "score": 0.1658,
+     "parts": { "search_demand": 0.1893, "on_site": 0.1616, "segment_voice": 0.1463 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0019", "chat-0033", "chat-0034", "chat-0045", "chat-0058", "chat-0083", "chat-0086", "chat-0112", "chat-0117", "chat-0121" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0125", "crm-0161", "crm-0172" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0007", "srv-0059", "srv-0091", "srv-0098" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "score": 0.1651,
+     "parts": { "search_demand": 0.196, "on_site": 0.1772, "segment_voice": 0.122 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0008", "chat-0017", "chat-0039", "chat-0051", "chat-0060", "chat-0066", "chat-0071", "chat-0080", "chat-0114" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0062", "crm-0180" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003", "ss-004" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0006", "srv-0075", "srv-0077", "srv-0080", "srv-0090", "srv-0101" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "score": 0.1598,
+     "parts": { "search_demand": 0.0995, "on_site": 0.1116, "segment_voice": 0.2683 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0015", "chat-0044", "chat-0062", "chat-0091", "chat-0095", "chat-0097", "chat-0102", "chat-0104", "chat-0109", "chat-0111", "chat-0115", "chat-0124" ],
+       "count": 13
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0018", "crm-0231" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021", "ss-022", "ss-023", "ss-024" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0024", "srv-0026", "srv-0030", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0079", "srv-0082" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "score": 0.1436,
+     "parts": { "search_demand": 0.1342, "on_site": 0.1501, "segment_voice": 0.1463 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0020", "chat-0025", "chat-0026", "chat-0029", "chat-0032", "chat-0036", "chat-0063", "chat-0076", "chat-0096", "chat-0107", "chat-0120", "chat-0123", "chat-0125" ],
+       "count": 14
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019", "ss-020" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0004", "srv-0008", "srv-0066" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "price_value",
+     "label": "Price and value",
+     "ads": 10,
+     "share": 0.2941,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013", "comp-014", "comp-016", "comp-018", "comp-023", "comp-028", "comp-032", "comp-039", "comp-042", "comp-043" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "angle": "classes",
+     "label": "Classes and community",
+     "ads": 8,
+     "share": 0.2353,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-009", "comp-019", "comp-020", "comp-021", "comp-024", "comp-033", "comp-035", "comp-041" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "coaching",
+     "label": "Coaching and progress",
+     "ads": 6,
+     "share": 0.1765,
+     "advertisers": [ "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-002", "comp-007", "comp-017", "comp-022", "comp-027", "comp-029" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "no_contract",
+     "label": "No contract",
+     "ads": 5,
+     "share": 0.1471,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "open_24_7",
+     "label": "Open 24/7",
+     "ads": 5,
+     "share": 0.1471,
+     "advertisers": [ "Brackwater Fitness", "Gullwing Gyms", "Mole Street Athletic" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-001", "comp-006", "comp-015", "comp-030", "comp-044" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "ads": 0,
+     "share": 0.0,
+     "advertisers": [],
+     "evidence": []
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "beginner_support",
+     "label": "Beginner support",
+     "demand": 0.1758,
+     "competitor_share": 0.0,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0051", "chat-0057", "chat-0061", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0174" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+       "count": 4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

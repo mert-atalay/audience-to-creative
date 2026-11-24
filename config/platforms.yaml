@@ -1,0 +1,27 @@
+# Placement specs used by the generators, the guardrails and the SVG renderer.
+# The character limits are the commonly recommended lengths at the time of writing.
+# Check them against each platform's current documentation before real use.
+feed_image:
+  platform: Meta
+  placement: Feed, single image
+  limits: {headline: 40, primary_text: 125}
+  cta_options: [Sign Up, Learn More, Book Now, Get Offer, Contact Us]
+  visual: {width: 1080, height: 1080, headline_max: 104, headline_min: 60}
+story_image:
+  platform: Meta
+  placement: Stories, single image
+  limits: {headline: 40, primary_text: 125}
+  cta_options: [Sign Up, Learn More, Book Now, Get Offer, Contact Us]
+  visual: {width: 1080, height: 1920, headline_max: 124, headline_min: 64}
+search_text:
+  platform: Google Ads
+  placement: Responsive search ad (one headline, one description)
+  limits: {headline: 30, primary_text: 90}
+  cta_options: []
+  visual: null   # text only, no image is rendered
+linkedin_image:
+  platform: LinkedIn
+  placement: Single image ad
+  limits: {headline: 70, primary_text: 150}
+  cta_options: [Sign Up, Learn More, Request Demo, Contact Us, Download]
+  visual: {width: 1200, height: 627, headline_max: 68, headline_min: 40}

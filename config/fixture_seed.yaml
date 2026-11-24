@@ -1,0 +1,163 @@
+# Inputs for the seeded fixture generator (pipeline/fixtures.py).
+# Everything here is invented. Weights shape the synthetic data, they are not findings.
+b2c:
+  seed: 4101
+  leads: 240
+  chats: 130
+  competitor_ads: 44
+  reviews: 36
+  survey_question: What made you look for a gym?
+  locations: [Quayside, Northgate, Millbrook, Eastfield]
+  plans: {student: 2, family: 2, standard: 5, off_peak: 1}
+  experience: {none: 4, some: 3, regular: 3}
+  plan_value: {student: 22, family: 59, standard: 34, off_peak: 24}
+  channels:
+    students: {paid_social: 5, referral: 3, organic_search: 2, paid_search: 1}
+    families: {paid_social: 3, referral: 4, organic_search: 2, paid_search: 2}
+    new_starters: {paid_social: 4, referral: 2, organic_search: 4, paid_search: 2}
+    regulars: {paid_social: 2, referral: 2, organic_search: 3, paid_search: 5}
+  stages:
+    students: {lead: 3, trial: 2, member: 2, lost: 3}
+    families: {lead: 2, trial: 2, member: 4, lost: 2}
+    new_starters: {lead: 3, trial: 2, member: 2, lost: 4}
+    regulars: {lead: 2, trial: 2, member: 5, lost: 2}
+  # How often each segment talks about each angle (surveys, chat, lost reasons).
+  affinity:
+    students: {price_value: 5, no_contract: 4, beginner_support: 2, open_24_7: 2, classes: 2, coaching: 1}
+    families: {price_value: 3, no_contract: 2, beginner_support: 2, open_24_7: 2, classes: 4, coaching: 1}
+    new_starters: {price_value: 2, no_contract: 3, beginner_support: 6, open_24_7: 1, classes: 2, coaching: 2}
+    regulars: {price_value: 2, no_contract: 2, beginner_support: 0.2, open_24_7: 4, classes: 2, coaching: 4}
+  demand: {price_value: 4, no_contract: 4, beginner_support: 5, open_24_7: 3, classes: 3, coaching: 2}
+  competitor_weight: {price_value: 7, no_contract: 2, beginner_support: 1, open_24_7: 3, classes: 6, coaching: 3}
+  ads:
+    tried: {price_value: 1.0, open_24_7: 1.2, classes: 0.9, coaching: 1.3}   # relative lead rate; other angles were never run
+    hooks: {question: 1.05, direct: 0.85, proof: 1.25}
+    formats: {feed_image: {ctr: 0.011, cvr: 0.06}, story_image: {ctr: 0.008, cvr: 0.05}, search_text: {ctr: 0.045, cvr: 0.09}}
+    skip: 0.45
+    long_running: [[regulars, open_24_7], [students, price_value]]
+    # One tiny sample with a lucky rate, to show that shrinkage keeps it from winning.
+    lucky: {segment: students, angle: classes, format: story_image, hook_type: direct, impressions: 300, clicks: 14, leads: 4, weeks_running: 1}
+  vocab:
+    price_value:
+      ask: ["How much is the monthly fee?", "Is there a joining fee on top of the price?", "Do you have a cheaper off-peak price?", "Any student discount on the monthly fee?"]
+      say: ["I wanted a gym I could afford every month", "The monthly fee was fair compared to others", "No joining fee made it an easy choice"]
+      search: [membership prices, joining fee, off peak price, student discount]
+      demand: [cheap gym near me, gym membership cost]
+      review: ["Fair monthly fee and no joining fee.", "Too expensive for what you get."]
+      competitor: ["Join this month for half price. No joining fee.", "The lowest monthly price in town.", "Pay less every month with our discount rate."]
+    no_contract:
+      ask: ["Can I cancel anytime or is there a contract?", "Is there a minimum contract length?", "Can I freeze my membership over summer?", "How much notice do I give to cancel?"]
+      say: ["I did not want to be locked into a 12 month contract", "Being able to cancel anytime mattered most", "I liked that I could freeze my membership"]
+      search: [cancel membership, no contract membership, freeze membership, notice period]
+      demand: [no contract gym, gym cancel anytime]
+      review: ["Cancelling was easy, no contract tricks.", "Locked into a contract I could not cancel."]
+      competitor: ["No contract. Cancel anytime."]
+    beginner_support:
+      ask: ["I have never been to a gym, where do I start?", "Is there an induction for beginners?", "I feel nervous about starting, is the gym beginner friendly?", "Will someone show me how to use the machines?"]
+      say: ["I was nervous because I had never been to a gym before", "The induction made me feel less intimidated", "I wanted somewhere beginner friendly with no judging"]
+      search: [beginner induction, first time at gym, beginner friendly, how to use machines]
+      demand: [gym for beginners, nervous about joining a gym first time]
+      review: ["Staff were kind to a complete beginner.", "Felt intimidated and nobody offered an induction."]
+      competitor: ["Beginners welcome."]
+    open_24_7:
+      ask: ["Are you open 24/7 at every location?", "How busy is it after work?", "Can I come in before work at 5am?", "Is it quiet late at night?"]
+      say: ["I work shifts so I need a gym open 24/7", "It is quiet at night which suits me", "I can train before work without queues"]
+      search: [opening hours, 24/7 access, busy times, open late]
+      demand: [24 hour gym near me, gym open late]
+      review: ["Open 24/7 and quiet at night.", "Far too busy after work."]
+      competitor: ["Open 24/7, train when it suits you.", "Beat the after work rush: open late every day."]
+    classes:
+      ask: ["Are classes included in the membership?", "Where can I see the class timetable?", "Do you run yoga or spin classes on weekends?", "Can I bring a friend to a class?"]
+      say: ["I joined for the spin and yoga classes", "The classes keep me coming back", "I like the group classes and the community"]
+      search: [class timetable, yoga classes, spin class, book a class]
+      demand: [gym classes near me, yoga classes near me]
+      review: ["Great spin classes and friendly community.", "Classes are always fully booked."]
+      competitor: ["Over 60 classes a week, all included.", "Yoga, spin and pilates classes under one roof.", "Bring a friend to any class this month."]
+    coaching:
+      ask: ["Do you offer personal training?", "Can a coach write a programme for me?", "How do I track my progress?", "How do I book a session with a coach?"]
+      say: ["I wanted a coach to help me get stronger", "A programme and progress checks keep me on track", "Personal training helped me see progress"]
+      search: [personal training, training programme, progress tracking, book a coach]
+      demand: [personal trainer near me, strength training programme]
+      review: ["My coach built a programme that works.", "No coach on the floor to ask for help."]
+      competitor: ["Personal training from certified coaches.", "Track your progress with our app."]
+
+b2b:
+  seed: 7202
+  companies: 90
+  leads: 84
+  chats: 110
+  competitor_ads: 40
+  reviews: 30
+  survey_question: What are you hoping a workplace plan will do?
+  industries: [logistics, healthcare, hospitality, manufacturing, software, finance, legal, education, software, finance]
+  size_bands: {"1-49": 4, "50-249": 4, "250+": 2}
+  regions: [North, South, Coast]
+  seats: {"1-49": [8, 40], "50-249": [40, 200], "250+": [200, 600]}
+  price_per_seat: 14
+  channels:
+    shift_employers: {linkedin: 2, paid_search: 4, referral: 3, events: 2}
+    small_offices: {linkedin: 3, paid_search: 4, referral: 3, events: 1}
+    midsize_offices: {linkedin: 5, paid_search: 3, referral: 2, events: 2}
+    large_employers: {linkedin: 5, paid_search: 1, referral: 2, events: 4}
+  stages:
+    shift_employers: {lead: 3, meeting: 2, proposal: 1, customer: 1, lost: 4}
+    small_offices: {lead: 3, meeting: 2, proposal: 1, customer: 3, lost: 3}
+    midsize_offices: {lead: 2, meeting: 2, proposal: 2, customer: 3, lost: 2}
+    large_employers: {lead: 2, meeting: 3, proposal: 2, customer: 2, lost: 2}
+  affinity:
+    shift_employers: {wellbeing: 2, recruitment: 3, easy_admin: 1, flexible_access: 6, cost_per_employee: 2, uptake: 2}
+    small_offices: {wellbeing: 2, recruitment: 2, easy_admin: 5, flexible_access: 0.5, cost_per_employee: 5, uptake: 1}
+    midsize_offices: {wellbeing: 3, recruitment: 4, easy_admin: 3, flexible_access: 1, cost_per_employee: 2, uptake: 3}
+    large_employers: {wellbeing: 4, recruitment: 2, easy_admin: 1, flexible_access: 2, cost_per_employee: 1, uptake: 5}
+  demand: {wellbeing: 4, recruitment: 3, easy_admin: 4, flexible_access: 3, cost_per_employee: 4, uptake: 3}
+  competitor_weight: {wellbeing: 8, recruitment: 5, easy_admin: 1, flexible_access: 1, cost_per_employee: 5, uptake: 1}
+  ads:
+    tried: {wellbeing: 0.9, recruitment: 1.3, cost_per_employee: 1.1}
+    hooks: {question: 1.1, direct: 0.85, proof: 1.2}
+    formats: {linkedin_image: {ctr: 0.006, cvr: 0.035}, search_text: {ctr: 0.035, cvr: 0.06}}
+    skip: 0.35
+    long_running: [[large_employers, wellbeing], [midsize_offices, wellbeing]]
+    lucky: {segment: small_offices, angle: wellbeing, format: linkedin_image, hook_type: direct, impressions: 400, clicks: 6, leads: 3, weeks_running: 1}
+  vocab:
+    wellbeing:
+      ask: ["Do you run wellbeing workshops at our office?", "Can you help with stress and burnout in our team?", "Is there a wellbeing programme beyond gym access?"]
+      say: ["We want a healthier team and less burnout", "Staff asked for wellbeing support after a hard year", "Stress and burnout are our main concern this year"]
+      search: [corporate wellbeing programme, stress workshops, wellbeing workshops]
+      demand: [employee wellbeing programme, workplace stress support]
+      review: ["The wellbeing workshops were well received by our team.", "The wellbeing workshops felt generic."]
+      competitor: ["A wellbeing programme your team will love.", "Beat burnout with our workplace wellbeing plans.", "Healthier teams start here: wellbeing for every employee."]
+    recruitment:
+      ask: ["Do other employers use this for hiring and retention?", "Can we mention the plan in job adverts to attract candidates?", "Does this help us retain staff?"]
+      say: ["We need something to help retain good people", "Candidates keep asking what we offer and we want to attract them", "Hiring is hard and we want an edge on staff retention"]
+      search: [staff retention ideas, attract candidates, hiring perks]
+      demand: [employee retention ideas, perks to attract staff]
+      review: ["Helped us retain staff in a tight market.", "Did not change much for hiring."]
+      competitor: ["Attract and retain talent with a gym perk.", "The perk that helps you retain your best people."]
+    easy_admin:
+      ask: ["Is it one invoice for the whole company?", "How much admin is there to add or remove staff?", "Does it connect to our payroll?", "How long does onboarding take?"]
+      say: ["We are a small HR team so admin has to be minimal", "One invoice and no paperwork would make this easy", "Onboarding new starters must be simple, with one invoice"]
+      search: [single invoice, add or remove staff admin, payroll deduction, onboarding steps]
+      demand: [corporate gym membership admin, employee benefits one invoice]
+      review: ["One invoice and almost no admin.", "Too much paperwork to add new staff."]
+      competitor: ["Simple onboarding for HR teams."]
+    flexible_access:
+      ask: ["Can night shift staff use the gyms 24/7?", "Do staff at different sites get access to all locations?", "We have three sites, are there locations near each?"]
+      say: ["Our warehouse team works shifts so opening times matter", "We have staff across several sites and locations", "Night shift staff are usually left out of perks"]
+      search: [locations map, 24/7 access for shift workers, multi site access]
+      demand: [gym membership for shift workers, corporate gym multiple locations]
+      review: ["Our night shift team can finally use a perk.", "No locations near our second site."]
+      competitor: ["Access across all locations."]
+    cost_per_employee:
+      ask: ["What is the price per employee?", "Is there a minimum number of seats?", "Do we pay for seats nobody uses?", "Can you work within our budget?"]
+      say: ["Budget is tight so we need clear pricing", "We need a price per employee we can plan around", "The cost has to be predictable, with clear pricing"]
+      search: [corporate pricing, price per employee, minimum seats]
+      demand: [corporate gym membership cost, employee gym benefit pricing]
+      review: ["Clear pricing per seat, no surprises.", "The cost went up at renewal."]
+      competitor: ["Plans from a low price per employee.", "Corporate rates that fit any budget.", "Transparent pricing. No setup cost."]
+    uptake:
+      ask: ["How many employees actually use it?", "Do we get usage reports?", "What uptake do you see at similar companies?"]
+      say: ["Our last perk had low uptake so we are cautious", "We want to see usage reports before we renew", "We need a usage report to show the board people use it"]
+      search: [usage reports, uptake rates, engagement dashboard]
+      demand: [employee benefit uptake, gym benefit usage report]
+      review: ["The monthly usage report keeps finance happy.", "Low uptake and no reporting."]
+      competitor: ["See engagement in one dashboard."]

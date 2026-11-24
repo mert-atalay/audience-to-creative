@@ -1,0 +1,9 @@
+[
+ {"variant_id": "b2c-r1-b1-v2", "decision": "approved", "note": "Fine as a search ad."},
+ {"variant_id": "b2c-r1-b2-v1", "decision": "rejected", "note": "We cannot promise quiet hours at every location."},
+ {"variant_id": "b2c-r1-b2-v2", "decision": "approved", "note": "Clear and true."},
+ {"variant_id": "b2c-r1-b3-v1", "decision": "approved", "note": "Check the joining fee policy stays in place this quarter."},
+ {"variant_id": "b2c-r1-b3-v2", "decision": "approved", "note": ""},
+ {"variant_id": "b2c-r1-b4-v1", "decision": "approved", "note": "Explore test. Inductions are available at all four locations."},
+ {"variant_id": "b2c-r1-b4-v2", "decision": "approved", "note": "Explore test."}
+]

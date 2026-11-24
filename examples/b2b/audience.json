@@ -1,0 +1,3344 @@
+{
+ "profile": "b2b",
+ "business": "Harbour Fitness Corporate",
+ "as_of": "2026-09-30",
+ "records": { "crm": 84, "ad_performance": 51, "site_search": 19, "chat": 110, "survey": 40, "competitor_ads": 40, "reviews": 30, "search_demand": 12, "firmographics": 90 },
+ "segments": [
+  {
+   "id": "shift_employers",
+   "label": "Shift-based employers",
+   "rule": {
+    "industry": [ "logistics", "healthcare", "hospitality", "manufacturing" ]
+   },
+   "size": {
+    "leads": 33,
+    "customers": 3,
+    "share_of_leads": 0.393,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0002", "crm-0006", "crm-0012", "crm-0017", "crm-0019", "crm-0025", "crm-0026", "crm-0027", "crm-0028", "crm-0033", "crm-0036", "crm-0041", "crm-0042", "crm-0045", "crm-0047", "crm-0049", "crm-0051", "crm-0054", "crm-0056", "crm-0058", "crm-0060", "crm-0061", "crm-0062", "crm-0064", "crm-0065", "crm-0068", "crm-0070", "crm-0071", "crm-0073", "crm-0080", "crm-0081", "crm-0082", "crm-0084" ],
+      "count": 33
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.091,
+    "monthly_value": 10402,
+    "avg_monthly_value": 3467.33,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0049", "crm-0068", "crm-0080" ],
+      "count": 3
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "paid_search",
+     "leads": 13,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0006", "crm-0028", "crm-0036", "crm-0041", "crm-0049", "crm-0054", "crm-0056", "crm-0058", "crm-0062", "crm-0070", "crm-0071", "crm-0073", "crm-0084" ],
+       "count": 13
+      }
+     ]
+    },
+    {
+     "channel": "linkedin",
+     "leads": 10,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0012", "crm-0017", "crm-0019", "crm-0026", "crm-0027", "crm-0042", "crm-0051", "crm-0061", "crm-0065", "crm-0082" ],
+       "count": 10
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 6,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0025", "crm-0045", "crm-0047", "crm-0064", "crm-0068", "crm-0080" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "channel": "events",
+     "leads": 4,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0002", "crm-0033", "crm-0060", "crm-0081" ],
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "benefit_not_valued",
+     "count": 3,
+     "share": 0.214,
+     "answered_by": "recruitment",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0019", "crm-0047", "crm-0064" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "locations_mismatch",
+     "count": 3,
+     "share": 0.214,
+     "answered_by": "flexible_access",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0025", "crm-0041", "crm-0071" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "reason": "admin_burden",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "easy_admin",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0026", "crm-0058" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "low_expected_uptake",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "uptake",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0002", "crm-0065" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "not_a_priority",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "wellbeing",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0012", "crm-0027" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "over_budget",
+     "count": 2,
+     "share": 0.143,
+     "answered_by": "cost_per_employee",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0006", "crm-0070" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0005", "srv-0016", "srv-0023", "srv-0027", "srv-0030", "srv-0034", "srv-0035" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0025", "srv-0029" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0022", "srv-0024", "srv-0032" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0031", "srv-0040" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0020" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "mentions": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0040", "chat-0053", "chat-0077", "chat-0083" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0025", "crm-0041", "crm-0071" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0012", "chat-0021", "chat-0022", "chat-0041", "chat-0065" ],
+       "count": 6
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0012", "crm-0027" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0025", "chat-0035", "chat-0088", "chat-0109" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0006", "crm-0070" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0039", "chat-0052", "chat-0060" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0026", "crm-0058" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0046", "chat-0049" ],
+       "count": 2
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0019", "crm-0047", "crm-0064" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0024" ],
+       "count": 1
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0002", "crm-0065" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing workshops",
+     "count": 9,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0012", "chat-0022", "chat-0038", "chat-0070", "chat-0080" ],
+       "count": 6
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-004", "rev-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing programme",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0015", "chat-0041", "chat-0062", "chat-0065", "chat-0090" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "run wellbeing",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0012", "chat-0022", "chat-0038", "chat-0070", "chat-0080" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "attract candidates",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "staff retention",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "site_search",
+       "ids": [ "ss-004" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0031" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "adverts to attract",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "add or remove",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0066", "chat-0075", "chat-0085" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "remove staff",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0066", "chat-0075", "chat-0085" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "almost no admin",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-003", "rev-017", "rev-021", "rev-028" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "night shift",
+     "count": 12,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0033", "chat-0040", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 6
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0027" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "shift staff",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0033", "chat-0040", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 6
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0027" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "use the gyms",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0033", "chat-0040", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "price per employee",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0008", "chat-0028", "chat-0035", "chat-0088", "chat-0109" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-015" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "pricing per seat",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "seat no surprises",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "usage report",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0029" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "low uptake",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-016", "rev-030" ],
+       "count": 2
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0025" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "keeps finance happy",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "score": 0.1952,
+     "parts": { "search_demand": 0.1556, "on_site": 0.2224, "segment_voice": 0.2075 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0006", "chat-0007", "chat-0012", "chat-0015", "chat-0021", "chat-0022", "chat-0038", "chat-0041", "chat-0054", "chat-0062", "chat-0065", "chat-0070", "chat-0080", "chat-0090", "chat-0099" ],
+       "count": 15
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0012", "crm-0027" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0022", "srv-0024", "srv-0032" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "score": 0.1951,
+     "parts": { "search_demand": 0.205, "on_site": 0.2482, "segment_voice": 0.1321 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0039", "chat-0052", "chat-0060", "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0095" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0026", "crm-0058" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0020" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "score": 0.1707,
+     "parts": { "search_demand": 0.11, "on_site": 0.1192, "segment_voice": 0.283 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0003", "chat-0033", "chat-0040", "chat-0051", "chat-0053", "chat-0067", "chat-0077", "chat-0083", "chat-0103" ],
+       "count": 9
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0025", "crm-0041", "crm-0071" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011", "ss-012", "ss-013" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0005", "srv-0016", "srv-0023", "srv-0027", "srv-0030", "srv-0034", "srv-0035" ],
+       "count": 7
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "score": 0.1641,
+     "parts": { "search_demand": 0.1758, "on_site": 0.1843, "segment_voice": 0.1321 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0008", "chat-0025", "chat-0028", "chat-0035", "chat-0056", "chat-0088", "chat-0104", "chat-0105", "chat-0109" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0006", "crm-0070" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-014", "ss-015", "ss-016" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "score": 0.1412,
+     "parts": { "search_demand": 0.1773, "on_site": 0.1143, "segment_voice": 0.1321 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0046", "chat-0048", "chat-0049", "chat-0094" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0019", "crm-0047", "crm-0064" ],
+       "count": 3
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-004", "ss-005", "ss-006" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0031", "srv-0040" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "score": 0.1337,
+     "parts": { "search_demand": 0.1762, "on_site": 0.1118, "segment_voice": 0.1132 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0024", "chat-0034", "chat-0059", "chat-0079", "chat-0084" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0002", "crm-0065" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0015", "srv-0025", "srv-0029" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "ads": 9,
+     "share": 0.3103,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-006", "comp-008", "comp-010", "comp-016", "comp-018", "comp-019", "comp-028", "comp-031", "comp-033" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "ads": 9,
+     "share": 0.3103,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-017", "comp-020", "comp-022", "comp-023", "comp-025", "comp-026", "comp-034", "comp-038", "comp-039" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "ads": 4,
+     "share": 0.1379,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013", "comp-020", "comp-028", "comp-036" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "ads": 4,
+     "share": 0.1379,
+     "advertisers": [ "Quorum Wellness Co" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-004", "comp-015", "comp-035", "comp-036" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "ads": 2,
+     "share": 0.069,
+     "advertisers": [ "Bluepier Health Plans", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "ads": 1,
+     "share": 0.0345,
+     "advertisers": [ "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-037" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "demand": 0.1951,
+     "competitor_share": 0.069,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0014", "chat-0039", "chat-0052", "chat-0060", "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0095" ],
+       "count": 10
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0026", "crm-0058" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0020" ],
+       "count": 1
+      },
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "small_offices",
+   "label": "Small offices",
+   "rule": {
+    "size_band": [ "1-49" ]
+   },
+   "size": {
+    "leads": 28,
+    "customers": 5,
+    "share_of_leads": 0.333,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0001", "crm-0003", "crm-0004", "crm-0005", "crm-0008", "crm-0009", "crm-0011", "crm-0013", "crm-0015", "crm-0016", "crm-0020", "crm-0021", "crm-0024", "crm-0030", "crm-0035", "crm-0037", "crm-0040", "crm-0043", "crm-0046", "crm-0050", "crm-0053", "crm-0055", "crm-0057", "crm-0059", "crm-0063", "crm-0069", "crm-0074", "crm-0076" ],
+      "count": 28
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.179,
+    "monthly_value": 1540,
+    "avg_monthly_value": 308.0,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0003", "crm-0009", "crm-0021", "crm-0046", "crm-0057" ],
+      "count": 5
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "paid_search",
+     "leads": 12,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0001", "crm-0003", "crm-0005", "crm-0013", "crm-0024", "crm-0037", "crm-0043", "crm-0050", "crm-0053", "crm-0055", "crm-0057", "crm-0074" ],
+       "count": 12
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 11,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0004", "crm-0009", "crm-0015", "crm-0016", "crm-0021", "crm-0030", "crm-0035", "crm-0040", "crm-0059", "crm-0069", "crm-0076" ],
+       "count": 11
+      }
+     ]
+    },
+    {
+     "channel": "events",
+     "leads": 3,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0011", "crm-0020", "crm-0046" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "channel": "linkedin",
+     "leads": 2,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0008", "crm-0063" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "over_budget",
+     "count": 4,
+     "share": 0.4,
+     "answered_by": "cost_per_employee",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0024", "crm-0063", "crm-0069", "crm-0074" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "reason": "admin_burden",
+     "count": 2,
+     "share": 0.2,
+     "answered_by": "easy_admin",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0055", "crm-0059" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "moved_or_closed",
+     "count": 2,
+     "share": 0.2,
+     "answered_by": null,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0035", "crm-0043" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "locations_mismatch",
+     "count": 1,
+     "share": 0.1,
+     "answered_by": "flexible_access",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0050" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "reason": "low_expected_uptake",
+     "count": 1,
+     "share": 0.1,
+     "answered_by": "uptake",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0016" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 8,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0004", "srv-0006", "srv-0007", "srv-0010", "srv-0014", "srv-0019", "srv-0026", "srv-0033" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0008", "srv-0011", "srv-0021" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0028" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0001" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 17,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0016", "chat-0019", "chat-0023", "chat-0031", "chat-0036", "chat-0043", "chat-0058", "chat-0074", "chat-0078", "chat-0082", "chat-0087", "chat-0092", "chat-0097", "chat-0101", "chat-0110" ],
+       "count": 15
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0055", "crm-0059" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0010", "chat-0020", "chat-0027", "chat-0037", "chat-0045", "chat-0076" ],
+       "count": 6
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0024", "crm-0063", "crm-0069", "crm-0074" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0013", "chat-0061", "chat-0102" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0073" ],
+       "count": 1
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0016" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0050" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing workshops",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0038", "chat-0070", "chat-0080" ],
+       "count": 3
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-004", "rev-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing programme",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0013", "chat-0015", "chat-0062", "chat-0090", "chat-0102" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "stress and burnout",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0007", "chat-0054", "chat-0061", "chat-0099" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "attract candidates",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "staff retention",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "site_search",
+       "ids": [ "ss-004" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0028" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "adverts to attract",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "one invoice",
+     "count": 10,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0019", "chat-0078", "chat-0082", "chat-0097" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-003", "rev-017", "rev-021", "rev-028" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0008", "srv-0011" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "add or remove",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0036", "chat-0066", "chat-0075", "chat-0085", "chat-0101" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "remove staff",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0036", "chat-0066", "chat-0075", "chat-0085", "chat-0101" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "night shift",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "shift staff use",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "team can finally",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "price per employee",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0008", "chat-0020", "chat-0028" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-015" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0004", "srv-0006" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "clear pricing",
+     "count": 11,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0007", "srv-0010", "srv-0014", "srv-0019", "srv-0026", "srv-0033" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "predictable with clear",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0007", "srv-0010", "srv-0014", "srv-0019", "srv-0026", "srv-0033" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "low uptake",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-016", "rev-030" ],
+       "count": 2
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "keeps finance happy",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "monthly usage report",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "score": 0.2899,
+     "parts": { "search_demand": 0.205, "on_site": 0.2482, "segment_voice": 0.4167 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0016", "chat-0019", "chat-0023", "chat-0031", "chat-0036", "chat-0043", "chat-0058", "chat-0064", "chat-0066", "chat-0071", "chat-0074", "chat-0075", "chat-0078", "chat-0082", "chat-0085", "chat-0087", "chat-0092", "chat-0095", "chat-0097", "chat-0101", "chat-0110" ],
+       "count": 21
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0055", "crm-0059" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0008", "srv-0011", "srv-0021" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "score": 0.245,
+     "parts": { "search_demand": 0.1758, "on_site": 0.1843, "segment_voice": 0.375 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0008", "chat-0010", "chat-0020", "chat-0027", "chat-0028", "chat-0037", "chat-0045", "chat-0056", "chat-0076", "chat-0104", "chat-0105" ],
+       "count": 12
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0024", "crm-0063", "crm-0069", "crm-0074" ],
+       "count": 4
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-014", "ss-015", "ss-016" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0004", "srv-0006", "srv-0007", "srv-0010", "srv-0014", "srv-0019", "srv-0026", "srv-0033" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "score": 0.1538,
+     "parts": { "search_demand": 0.1556, "on_site": 0.2224, "segment_voice": 0.0833 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0007", "chat-0013", "chat-0015", "chat-0038", "chat-0054", "chat-0061", "chat-0062", "chat-0070", "chat-0080", "chat-0090", "chat-0099", "chat-0102" ],
+       "count": 12
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "score": 0.1168,
+     "parts": { "search_demand": 0.1762, "on_site": 0.1118, "segment_voice": 0.0625 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0034", "chat-0059", "chat-0073", "chat-0079", "chat-0084" ],
+       "count": 5
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0016" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "score": 0.1111,
+     "parts": { "search_demand": 0.1773, "on_site": 0.1143, "segment_voice": 0.0417 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002", "chat-0018", "chat-0048", "chat-0094" ],
+       "count": 4
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-004", "ss-005", "ss-006" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0028" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "score": 0.0833,
+     "parts": { "search_demand": 0.11, "on_site": 0.1192, "segment_voice": 0.0208 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0050" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011", "ss-012", "ss-013" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "ads": 11,
+     "share": 0.3929,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-009", "comp-017", "comp-022", "comp-023", "comp-025", "comp-026", "comp-030", "comp-032", "comp-034", "comp-038", "comp-039" ],
+       "count": 11
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "ads": 9,
+     "share": 0.3214,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-006", "comp-008", "comp-010", "comp-014", "comp-016", "comp-018", "comp-019", "comp-031", "comp-033" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "ads": 4,
+     "share": 0.1429,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-004", "comp-011", "comp-015", "comp-035" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "ads": 2,
+     "share": 0.0714,
+     "advertisers": [ "Bluepier Health Plans", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "ads": 1,
+     "share": 0.0357,
+     "advertisers": [ "Bluepier Health Plans" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "ads": 1,
+     "share": 0.0357,
+     "advertisers": [ "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-037" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "demand": 0.2899,
+     "competitor_share": 0.0714,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0016", "chat-0019", "chat-0023", "chat-0031", "chat-0036", "chat-0043", "chat-0058", "chat-0064", "chat-0066", "chat-0071", "chat-0074", "chat-0075", "chat-0078", "chat-0082", "chat-0085", "chat-0087", "chat-0092", "chat-0095", "chat-0097", "chat-0101", "chat-0110" ],
+       "count": 21
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0055", "crm-0059" ],
+       "count": 2
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0008", "srv-0011", "srv-0021" ],
+       "count": 3
+      },
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "midsize_offices",
+   "label": "Mid-size offices",
+   "rule": {
+    "size_band": [ "50-249" ]
+   },
+   "size": {
+    "leads": 11,
+    "customers": 3,
+    "share_of_leads": 0.131,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0010", "crm-0014", "crm-0022", "crm-0023", "crm-0031", "crm-0032", "crm-0034", "crm-0044", "crm-0072", "crm-0077", "crm-0078" ],
+      "count": 11
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.273,
+    "monthly_value": 3598,
+    "avg_monthly_value": 1199.33,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0010", "crm-0034", "crm-0077" ],
+      "count": 3
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "linkedin",
+     "leads": 4,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0022", "crm-0023", "crm-0072", "crm-0077" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "channel": "paid_search",
+     "leads": 3,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0014", "crm-0031", "crm-0032" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "channel": "events",
+     "leads": 2,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0010", "crm-0034" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "channel": "referral",
+     "leads": 2,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0044", "crm-0078" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "moved_or_closed",
+     "count": 2,
+     "share": 0.667,
+     "answered_by": null,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0023", "crm-0072" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "reason": "not_a_priority",
+     "count": 1,
+     "share": 0.333,
+     "answered_by": "wellbeing",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0018", "srv-0037" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0038" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0013" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0029", "chat-0032", "chat-0042", "chat-0047", "chat-0050" ],
+       "count": 6
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0063", "chat-0091", "chat-0098", "chat-0100" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0030", "chat-0106" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0009", "chat-0057" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing workshops",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0029", "chat-0038", "chat-0070", "chat-0080" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-004", "rev-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing programme",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0015", "chat-0047", "chat-0062", "chat-0090" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "help with stress",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0007", "chat-0032", "chat-0042", "chat-0050", "chat-0054", "chat-0099" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "attract candidates",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048", "chat-0091", "chat-0100" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "adverts to attract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048", "chat-0091", "chat-0100" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "mention the plan",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048", "chat-0091", "chat-0100" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "one invoice",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0030" ],
+       "count": 1
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-003", "rev-017", "rev-021", "rev-028" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0018", "srv-0037" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "add or remove",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0066", "chat-0075", "chat-0085", "chat-0106" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "remove staff",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0066", "chat-0075", "chat-0085", "chat-0106" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "night shift",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "shift staff use",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "team can finally",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "price per employee",
+     "count": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0008", "chat-0028" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-015" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "pricing per seat",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "seat no surprises",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "usage reports",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0009" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "keeps finance happy",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "monthly usage report",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "score": 0.253,
+     "parts": { "search_demand": 0.1556, "on_site": 0.2224, "segment_voice": 0.381 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0001", "chat-0007", "chat-0015", "chat-0029", "chat-0032", "chat-0038", "chat-0042", "chat-0047", "chat-0050", "chat-0054", "chat-0062", "chat-0070", "chat-0080", "chat-0090", "chat-0099" ],
+       "count": 15
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0014" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0013" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "score": 0.2304,
+     "parts": { "search_demand": 0.205, "on_site": 0.2482, "segment_voice": 0.2381 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0030", "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0095", "chat-0106" ],
+       "count": 9
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0018", "srv-0037" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "score": 0.1924,
+     "parts": { "search_demand": 0.1773, "on_site": 0.1143, "segment_voice": 0.2857 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0018", "chat-0048", "chat-0063", "chat-0091", "chat-0094", "chat-0098", "chat-0100" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-004", "ss-005", "ss-006" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0009", "srv-0038" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "score": 0.1277,
+     "parts": { "search_demand": 0.1762, "on_site": 0.1118, "segment_voice": 0.0952 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0009", "chat-0034", "chat-0057", "chat-0059", "chat-0079", "chat-0084" ],
+       "count": 6
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "score": 0.12,
+     "parts": { "search_demand": 0.1758, "on_site": 0.1843, "segment_voice": 0.0 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0008", "chat-0028", "chat-0056", "chat-0104", "chat-0105" ],
+       "count": 6
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-014", "ss-015", "ss-016" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "score": 0.0764,
+     "parts": { "search_demand": 0.11, "on_site": 0.1192, "segment_voice": 0.0 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011", "ss-012", "ss-013" ],
+       "count": 3
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "ads": 11,
+     "share": 0.4231,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-017", "comp-021", "comp-022", "comp-023", "comp-025", "comp-026", "comp-027", "comp-034", "comp-038", "comp-039", "comp-040" ],
+       "count": 11
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "ads": 8,
+     "share": 0.3077,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-006", "comp-008", "comp-010", "comp-016", "comp-018", "comp-019", "comp-031", "comp-033" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "ads": 3,
+     "share": 0.1154,
+     "advertisers": [ "Quorum Wellness Co" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-004", "comp-015", "comp-035" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "ads": 2,
+     "share": 0.0769,
+     "advertisers": [ "Bluepier Health Plans", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "ads": 1,
+     "share": 0.0385,
+     "advertisers": [ "Bluepier Health Plans" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "ads": 1,
+     "share": 0.0385,
+     "advertisers": [ "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-037" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "demand": 0.2304,
+     "competitor_share": 0.0769,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0011", "chat-0030", "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0095", "chat-0106" ],
+       "count": 9
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0018", "srv-0037" ],
+       "count": 2
+      },
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "large_employers",
+   "label": "Large employers",
+   "rule": "everything else",
+   "size": {
+    "leads": 12,
+    "customers": 2,
+    "share_of_leads": 0.143,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0007", "crm-0018", "crm-0029", "crm-0038", "crm-0039", "crm-0048", "crm-0052", "crm-0066", "crm-0067", "crm-0075", "crm-0079", "crm-0083" ],
+      "count": 12
+     }
+    ]
+   },
+   "value": {
+    "conversion_rate": 0.167,
+    "monthly_value": 13860,
+    "avg_monthly_value": 6930.0,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0052", "crm-0083" ],
+      "count": 2
+     }
+    ]
+   },
+   "channels": [
+    {
+     "channel": "linkedin",
+     "leads": 6,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0018", "crm-0029", "crm-0066", "crm-0075", "crm-0079", "crm-0083" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "channel": "events",
+     "leads": 5,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0007", "crm-0038", "crm-0039", "crm-0052", "crm-0067" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "channel": "paid_search",
+     "leads": 1,
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0048" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "lost_reasons": [
+    {
+     "reason": "low_expected_uptake",
+     "count": 1,
+     "share": 1.0,
+     "answered_by": "uptake",
+     "evidence": [
+      {
+       "source": "crm",
+       "ids": [ "crm-0029" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "motivations": [
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0036", "srv-0039" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "mentions": 2,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0012", "srv-0017" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "objections": [
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0086", "chat-0093", "chat-0096" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "mentions": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0026", "chat-0072", "chat-0108" ],
+       "count": 3
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0029" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0017", "chat-0068", "chat-0081" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "mentions": 3,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0044", "chat-0069", "chat-0107" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0089" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "mentions": 1,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0055" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "language": [
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing workshops",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0038", "chat-0044", "chat-0070", "chat-0080", "chat-0107" ],
+       "count": 5
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-004", "rev-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-003" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "wellbeing programme",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0015", "chat-0062", "chat-0069", "chat-0090" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "phrase": "run wellbeing",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0038", "chat-0044", "chat-0070", "chat-0080", "chat-0107" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "attract candidates",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0018", "chat-0048", "chat-0096" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-005" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "adverts to attract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0018", "chat-0048", "chat-0096" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "phrase": "mention the plan",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0018", "chat-0048", "chat-0096" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "add or remove",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0066", "chat-0075", "chat-0085", "chat-0089" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "remove staff",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0066", "chat-0075", "chat-0085", "chat-0089" ],
+       "count": 4
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-008" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "phrase": "almost no admin",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-003", "rev-017", "rev-021", "rev-028" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "night shift",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "shift staff use",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0067", "chat-0103" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "phrase": "team can finally",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-006", "rev-007", "rev-014", "rev-022" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "price per employee",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0008", "chat-0028" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-015" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0036" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "clear pricing",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0039" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "cost_per_employee",
+     "phrase": "pricing per seat",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-005", "rev-015", "rev-018", "rev-023", "rev-025" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "usage reports",
+     "count": 2,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0108" ],
+       "count": 1
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "keeps finance happy",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "phrase": "monthly usage report",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-001", "rev-011", "rev-012", "rev-026", "rev-029" ],
+       "count": 5
+      }
+     ]
+    }
+   ],
+   "demand": [
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "score": 0.2034,
+     "parts": { "search_demand": 0.1758, "on_site": 0.1843, "segment_voice": 0.25 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0004", "chat-0008", "chat-0017", "chat-0028", "chat-0056", "chat-0068", "chat-0081", "chat-0104", "chat-0105" ],
+       "count": 9
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-009", "sd-010" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-014", "ss-015", "ss-016" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0036", "srv-0039" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "score": 0.176,
+     "parts": { "search_demand": 0.1556, "on_site": 0.2224, "segment_voice": 0.15 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0007", "chat-0015", "chat-0038", "chat-0044", "chat-0054", "chat-0062", "chat-0069", "chat-0070", "chat-0080", "chat-0090", "chat-0099", "chat-0107" ],
+       "count": 12
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-001", "sd-002" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-001", "ss-002", "ss-003" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "score": 0.1677,
+     "parts": { "search_demand": 0.205, "on_site": 0.2482, "segment_voice": 0.05 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0089", "chat-0095" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "score": 0.1639,
+     "parts": { "search_demand": 0.1773, "on_site": 0.1143, "segment_voice": 0.2 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0005", "chat-0018", "chat-0048", "chat-0086", "chat-0093", "chat-0094", "chat-0096" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-003", "sd-004" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-004", "ss-005", "ss-006" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "score": 0.1627,
+     "parts": { "search_demand": 0.1762, "on_site": 0.1118, "segment_voice": 0.2 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0026", "chat-0034", "chat-0059", "chat-0072", "chat-0079", "chat-0084", "chat-0108" ],
+       "count": 7
+      },
+      {
+       "source": "crm",
+       "ids": [ "crm-0029" ],
+       "count": 1
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-011", "sd-012" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-017", "ss-018", "ss-019" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "score": 0.1264,
+     "parts": { "search_demand": 0.11, "on_site": 0.1192, "segment_voice": 0.15 },
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0033", "chat-0051", "chat-0055", "chat-0067", "chat-0103" ],
+       "count": 5
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-007", "sd-008" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011", "ss-012", "ss-013" ],
+       "count": 3
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0012", "srv-0017" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "competitor_messaging": [
+    {
+     "angle": "cost_per_employee",
+     "label": "Clear per-seat pricing",
+     "ads": 12,
+     "share": 0.4138,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-002", "comp-003", "comp-005", "comp-006", "comp-008", "comp-010", "comp-012", "comp-016", "comp-018", "comp-019", "comp-031", "comp-033" ],
+       "count": 12
+      }
+     ]
+    },
+    {
+     "angle": "wellbeing",
+     "label": "Employee wellbeing",
+     "ads": 8,
+     "share": 0.2759,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-017", "comp-022", "comp-023", "comp-025", "comp-026", "comp-034", "comp-038", "comp-039" ],
+       "count": 8
+      }
+     ]
+    },
+    {
+     "angle": "recruitment",
+     "label": "Hiring and retention",
+     "ads": 5,
+     "share": 0.1724,
+     "advertisers": [ "Bluepier Health Plans", "Quorum Wellness Co" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-001", "comp-004", "comp-015", "comp-024", "comp-035" ],
+       "count": 5
+      }
+     ]
+    },
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "ads": 2,
+     "share": 0.069,
+     "advertisers": [ "Bluepier Health Plans", "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    },
+    {
+     "angle": "flexible_access",
+     "label": "Access for every shift and site",
+     "ads": 1,
+     "share": 0.0345,
+     "advertisers": [ "Bluepier Health Plans" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-013" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "angle": "uptake",
+     "label": "Usage you can see",
+     "ads": 1,
+     "share": 0.0345,
+     "advertisers": [ "Tallyfit Benefits" ],
+     "evidence": [
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-037" ],
+       "count": 1
+      }
+     ]
+    }
+   ],
+   "gaps": [
+    {
+     "angle": "easy_admin",
+     "label": "Simple admin",
+     "demand": 0.1677,
+     "competitor_share": 0.069,
+     "own_impressions": 0,
+     "reason": "Demand is above an even share, competitors rarely use this angle and we have run little or nothing on it.",
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0064", "chat-0066", "chat-0071", "chat-0075", "chat-0085", "chat-0089", "chat-0095" ],
+       "count": 7
+      },
+      {
+       "source": "search_demand",
+       "ids": [ "sd-005", "sd-006" ],
+       "count": 2
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-007", "ss-008", "ss-009", "ss-010" ],
+       "count": 4
+      },
+      {
+       "source": "competitor_ads",
+       "ids": [ "comp-007", "comp-029" ],
+       "count": 2
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

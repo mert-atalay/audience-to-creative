@@ -1,0 +1,78 @@
+# One entry per source. mode is "fixture" (default, bundled synthetic data) or "live".
+# Live mode is documented here but not implemented: setting it raises a clear error.
+# Live collection should use official platform APIs or exports and respect each
+# site's terms of service. This project contains no scraper.
+sources:
+  crm:
+    kind: internal
+    description: Leads and customers with stage and lost reason.
+    mode: fixture
+    live:
+      connector: crm_api_or_export
+      auth_env: CRM_API_TOKEN
+      notes: Pull stage history and lost reasons. Drop names, emails and phone numbers before loading.
+  ad_performance:
+    kind: internal
+    description: Impressions, clicks, leads and spend per creative, with angle, format and hook type.
+    mode: fixture
+    live:
+      connector: ads_reporting_api
+      auth_env: ADS_API_TOKEN
+      notes: Use each ad platform's reporting API. Creative attributes come from your own naming convention.
+  site_search:
+    kind: internal
+    description: On-site search terms with counts.
+    mode: fixture
+    live:
+      connector: web_analytics_export
+      auth_env: ANALYTICS_CREDENTIALS
+      notes: Export aggregated search terms only. No user identifiers.
+  chat:
+    kind: internal
+    description: Questions asked in the on-site chat.
+    mode: fixture
+    live:
+      connector: chat_tool_export
+      auth_env: CHAT_API_TOKEN
+      notes: Export the first question of each conversation. Remove anything personal first.
+  survey:
+    kind: internal
+    description: Free-text survey answers.
+    mode: fixture
+    live:
+      connector: survey_tool_export
+      auth_env: SURVEY_API_TOKEN
+      notes: Free-text answers joined to the CRM id, never to a name.
+  competitor_ads:
+    kind: external
+    description: Competitor ads shaped like a public ad library export.
+    mode: fixture
+    live:
+      connector: ad_library_api_or_export
+      auth_env: AD_LIBRARY_TOKEN
+      notes: Use the official ad library API or its export. Do not scrape pages.
+  reviews:
+    kind: external
+    description: Public review snippets.
+    mode: fixture
+    live:
+      connector: reviews_api
+      auth_env: REVIEWS_API_KEY
+      notes: Use an official reviews API for your own listings or a licensed provider.
+  search_demand:
+    kind: external
+    description: Monthly search demand by query.
+    mode: fixture
+    live:
+      connector: keyword_planner_export
+      auth_env: SEARCH_ADS_CREDENTIALS
+      notes: Keyword planning tool export, aggregated volumes only.
+  firmographics:
+    kind: enrichment
+    profiles: [b2b]
+    description: Company lookup by domain (industry, size band, region). Companies only, never people.
+    mode: fixture
+    live:
+      connector: company_data_provider
+      auth_env: FIRMOGRAPHICS_API_KEY
+      notes: Licensed company data keyed by domain. Do not send or request person-level fields.

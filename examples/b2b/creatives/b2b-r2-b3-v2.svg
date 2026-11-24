@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 627" width="1200" height="627" role="img" aria-label="b2b-r2-b3-v2: Start with a free pilot" font-family="Helvetica, Arial, sans-serif">
+<rect width="1200" height="627" fill="#102A43"/>
+<circle cx="1200" cy="627" r="264" fill="#1F4E79"/>
+<circle cx="1200" cy="0" r="176" fill="#F2B134"/>
+<rect x="47" y="47" width="42" height="42" rx="9" fill="#F2B134"/>
+<path d="M55 72 q7 -13 13 0 t13 0" fill="none" stroke="#102A43" stroke-width="4" stroke-linecap="round"/>
+<text x="102" y="76" font-size="21" font-weight="700" fill="#FFFFFF">Harbour Fitness Corporate</text>
+<rect x="47" y="346" width="82" height="6" fill="#F2B134"/>
+<text x="47" y="430" font-size="68" font-weight="700" fill="#FFFFFF">Start with a free pilot</text>
+<rect x="47" y="481" width="288" height="65" rx="32" fill="#F2B134"/>
+<text x="191" y="523" font-size="27" font-weight="700" text-anchor="middle" fill="#102A43">Request Demo</text>
+<text x="47" y="580" font-size="18" fill="#C9D6E2">Pilot terms apply.</text>
+</svg>

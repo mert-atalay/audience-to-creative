@@ -1,0 +1,102 @@
+# Harbour Fitness (B2C): an invented multi-location gym business selling memberships to people.
+id: b2c
+business: Harbour Fitness
+audience: Members and prospective members
+as_of: "2026-09-30"
+won_stage: member
+
+brand:
+  name: Harbour Fitness
+  spelling: {pattern: "harbou?r\\s*fitness", correct: "Harbour Fitness"}
+  colours: {background: "#0B3954", panel: "#12507A", accent: "#FF6B35", text: "#FFFFFF", muted: "#BFD7EA", button_text: "#0B3954"}
+  font_family: "Helvetica, Arial, sans-serif"
+
+competitors: [Gullwing Gyms, Brackwater Fitness, Mole Street Athletic]
+
+formats: [feed_image, story_image, search_text]
+hooks: [question, direct, proof]
+
+# Segments are rules on CRM fields. The first rule that matches wins. The last one catches the rest.
+segments:
+  - {id: students, label: Students, match: {plan_interest: [student]}, keywords: [student]}
+  - {id: families, label: Families, match: {plan_interest: [family]}, keywords: [family, families, kids]}
+  - {id: new_starters, label: New starters, match: {experience: [none]}, keywords: [beginner, first time]}
+  - {id: regulars, label: Experienced regulars, match: {}, keywords: []}
+
+guardrails:
+  banned_claims:
+    - {name: guarantee, pattern: "guarantee"}
+    - {name: weight loss promise, pattern: "lose \\d+"}
+    - {name: medical claim, pattern: "\\b(cures?|treats?|heals?|medical|clinically)\\b"}
+    - {name: superlative, pattern: "best gym|#1|number one"}
+  disclaimers:
+    - {name: free offer, trigger: "\\bfree\\b", text: "Terms apply."}
+
+# An angle is a message theme. keywords tag text records to the angle.
+# answers lists the CRM lost reasons the angle speaks to.
+# copy feeds the template generator. Headlines stay within 30 characters so they fit every placement.
+angles:
+  price_value:
+    label: Price and value
+    keywords: [price, cost, fee, cheap, afford, expensive, discount]
+    answers: [too_expensive]
+    copy:
+      headlines: {question: "Paying too much for your gym?", direct: "One fair monthly price", proof: "No joining fee. Ever."}
+      body:
+        - 'You asked about "{phrase}". One monthly price, no joining fee, every location included.'
+        - "One monthly price. No joining fee. Every location included."
+      cta: Sign Up
+  no_contract:
+    label: No contract
+    keywords: [contract, cancel, freeze, notice, locked]
+    answers: [contract_lockin]
+    copy:
+      headlines: {question: "Tired of gym contracts?", direct: "No contract. Pay monthly.", proof: "Cancel online in 2 minutes"}
+      body:
+        - 'You asked about "{phrase}". Our answer: no contract, pay monthly, freeze or cancel online.'
+        - "No contract. Pay monthly. Freeze or cancel online."
+      cta: Sign Up
+  beginner_support:
+    label: Beginner support
+    keywords: [beginner, induction, nervous, intimidat, never been, first time, machines]
+    answers: [felt_intimidated]
+    copy:
+      headlines: {question: "Never been to a gym before?", direct: "Start with a free induction", proof: "A coach shows you every step"}
+      body:
+        - 'Many of you mention "{phrase}". Start with a free one to one induction and a simple first plan.'
+        - "Free one to one induction and a simple first plan."
+      cta: Book Now
+  open_24_7:
+    label: Open 24/7
+    keywords: ["24/7", 24 hour, open late, hours, before work, after work, at night, busy, shifts]
+    answers: [no_time, too_crowded]
+    copy:
+      headlines: {question: "Gym too busy after work?", direct: "Open 24/7 at every location", proof: "Quiet at 6am. Quiet at 10pm."}
+      body:
+        - 'You asked about "{phrase}". Every Harbour Fitness location is open 24/7, so you train when it suits you.'
+        - "Every location is open 24/7. Train when it suits you."
+      cta: Learn More
+  classes:
+    label: Classes and community
+    keywords: [class, yoga, spin, pilates, timetable]
+    answers: [lost_interest]
+    copy:
+      headlines: {question: "Want a class you will keep?", direct: "Classes included, no extras", proof: "Over 40 classes every week"}
+      body:
+        - 'You asked about "{phrase}". Yoga, spin and strength classes are included in every membership.'
+        - "Yoga, spin and strength classes included in every membership."
+      cta: Book Now
+  coaching:
+    label: Coaching and progress
+    keywords: [coach, personal train, programme, progress, stronger]
+    answers: [no_progress]
+    copy:
+      headlines:
+        question: "Not seeing progress?"
+        direct: "A coach and a clear plan"
+        # This headline breaks the banned-claims rule on purpose, so the demo shows a rejection.
+        proof: "Guaranteed results in 6 weeks"
+      body:
+        - 'You asked about "{phrase}". A Harbour Fitness coach writes your programme and checks progress monthly.'
+        - "A coach writes your programme and checks progress monthly."
+      cta: Learn More

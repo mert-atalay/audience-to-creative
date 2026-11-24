@@ -1,0 +1,23 @@
+[project]
+name = "audience-to-creative"
+version = "0.1.0"
+description = "Example pipeline: audience intelligence to creative recommendations to generated ad creative, on synthetic data."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mert Atalay" }]
+requires-python = ">=3.12"
+dependencies = ["pyyaml>=6.0"]
+
+[project.optional-dependencies]
+llm = ["anthropic"]
+gcs = ["google-cloud-storage"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

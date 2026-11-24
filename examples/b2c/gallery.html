@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harbour Fitness: audience to creative</title><style>
+:root{--bg:#f5f6f8;--card:#fff;--text:#18212c;--muted:#5a6573;--line:#dde2e8;--chip:#eef1f5;
+--performance:#2f6fb0;--demand:#1f8a7d;--fit:#b97a14;--whitespace:#8456a3;--freshness:#c2504c;
+--ok:#1d7a46;--warn:#9a6700;--bad:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#10151b;--card:#19212a;--text:#e7ebf0;--muted:#9ba7b5;--line:#2b3541;--chip:#232d38;
+--performance:#6aa5e0;--demand:#4fc0b1;--fit:#e3ad4f;--whitespace:#b891d3;--freshness:#e58985;
+--ok:#5fcf8f;--warn:#e3b341;--bad:#ff8a80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:24px 16px 56px}
+h1{font-size:1.6rem;line-height:1.25;margin:0 0 6px}
+h2{font-size:1.2rem;margin:40px 0 4px}
+h3{font-size:1rem;margin:0}
+h4{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:14px 0 4px}
+p{margin:4px 0}
+.muted,small{color:var(--muted)}
+.notice{border:1px solid var(--line);border-left:4px solid var(--warn);background:var(--card);padding:10px 14px;border-radius:6px;margin:14px 0}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));margin-top:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+ul{margin:0;padding:0;list-style:none}
+li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0 10px;padding:2px 0}
+li small{margin-left:auto;text-align:right;overflow-wrap:anywhere}
+.kpis{display:flex;flex-wrap:wrap;gap:6px 18px;margin:8px 0 0}
+.kpis b{display:block;font-size:1.15rem}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:2px 4px 2px 0;font-size:.82rem}
+.badge{display:inline-block;border:1px solid currentColor;border-radius:4px;padding:0 6px;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.pending{color:var(--warn)}.approved,.exploit{color:var(--ok)}.rejected,.rejected_by_guardrails{color:var(--bad)}.explore{color:var(--whitespace)}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.score{font-size:1.5rem;font-weight:700;line-height:1}
+.bar{display:flex;gap:2px;height:14px;margin:12px 0 8px;background:var(--chip);border-radius:4px;overflow:hidden}
+.bar span{display:block;height:100%}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{text-align:left;padding:5px 12px 5px 0;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+.visual{background:var(--chip);border-radius:8px;padding:10px;text-align:center;margin-bottom:12px}
+.visual svg{display:block;margin:0 auto;max-width:100%;width:auto;height:auto;max-height:400px;border-radius:4px}
+.textad{text-align:left;font-size:.9rem}
+.textad b{font-size:1.05rem;color:var(--performance)}
+.copy{overflow-wrap:anywhere}
+.fail{color:var(--bad);font-weight:600}.pass{color:var(--ok)}
+footer{margin-top:44px;color:var(--muted);font-size:.85rem}
+</style></head><body><main>
+<h1>Harbour Fitness: audience to creative</h1>
+<p class="muted">Members and prospective members. Run 2, data as of 2026-09-30, template generator.</p>
+<p class="notice">All data on this page is synthetic. The business and its competitors are invented. Nothing here was published or run as a real ad.</p>
+<h2>1. Segments</h2><p class="muted">Built by rules from 240 crm, 84 ad performance, 24 site search, 130 chat, 105 survey, 44 competitor ads, 36 reviews, 12 search demand records. Every figure traces to record ids in audience.json.</p>
+<div class="grid"><article class="card"><h3>Students</h3><small>Rule: plan_interest in student</small>
+<div class="kpis"><span><b>47</b><small>leads</small></span><span><b>8</b><small>customers</small></span>
+<span><b>17%</b><small>conversion</small></span><span><b>176</b><small>monthly value</small></span></div>
+<h4>Motivations (survey)</h4><ul><li><span>Price and value</span><small>10 mentions</small></li><li><span>No contract</span><small>7 mentions</small></li><li><span>Open 24/7</span><small>4 mentions</small></li></ul>
+<h4>Objections (chat and lost deals)</h4><ul><li><span>No contract</span><small>13 mentions</small></li><li><span>Price and value</span><small>10 mentions</small></li><li><span>Beginner support</span><small>4 mentions</small></li></ul>
+<h4>Lost reasons (CRM)</h4><ul><li><span>too expensive</span><small>5 lost, 36%</small></li><li><span>felt intimidated</span><small>3 lost, 21%</small></li><li><span>contract lockin</span><small>2 lost, 14%</small></li></ul>
+<h4>Phrases they use</h4><p><span class="chip">joining fee &times;16</span><span class="chip">open 24/7 &times;12</span><span class="chip">monthly fee &times;10</span><span class="chip">no joining &times;10</span><span class="chip">quiet at night &times;10</span><span class="chip">cancel anytime &times;8</span></p>
+<h4>Channels</h4><ul><li><span>paid social</span><small>23 leads</small></li><li><span>referral</span><small>10 leads</small></li><li><span>paid search</span><small>8 leads</small></li></ul>
+<h4>What competitors say to them</h4><ul><li><span>Price and value</span><small>10 ads, 29%</small></li><li><span>Classes and community</span><small>8 ads, 23%</small></li><li><span>Coaching and progress</span><small>6 ads, 17%</small></li></ul>
+<h4>Gaps (demand visible, competitors and our ads quiet)</h4><p>Beginner support<br><small>demand score 0.20, competitor share 0%, our impressions 0, 23 records</small></p>
+</article><article class="card"><h3>Families</h3><small>Rule: plan_interest in family</small>
+<div class="kpis"><span><b>46</b><small>leads</small></span><span><b>23</b><small>customers</small></span>
+<span><b>50%</b><small>conversion</small></span><span><b>1,357</b><small>monthly value</small></span></div>
+<h4>Motivations (survey)</h4><ul><li><span>No contract</span><small>7 mentions</small></li><li><span>Classes and community</span><small>5 mentions</small></li><li><span>Price and value</span><small>5 mentions</small></li></ul>
+<h4>Objections (chat and lost deals)</h4><ul><li><span>Price and value</span><small>7 mentions</small></li><li><span>Open 24/7</span><small>5 mentions</small></li><li><span>Classes and community</span><small>3 mentions</small></li></ul>
+<h4>Lost reasons (CRM)</h4><ul><li><span>too expensive</span><small>3 lost, 38%</small></li><li><span>moved or closed</span><small>2 lost, 25%</small></li><li><span>too crowded</span><small>2 lost, 25%</small></li></ul>
+<h4>Phrases they use</h4><p><span class="chip">open 24/7 &times;10</span><span class="chip">joining fee &times;8</span><span class="chip">cancel anytime &times;8</span><span class="chip">24/7 and quiet &times;8</span><span class="chip">monthly fee &times;7</span><span class="chip">spin classes &times;7</span></p>
+<h4>Channels</h4><ul><li><span>referral</span><small>19 leads</small></li><li><span>paid social</span><small>16 leads</small></li><li><span>organic search</span><small>8 leads</small></li></ul>
+<h4>What competitors say to them</h4><ul><li><span>Price and value</span><small>12 ads, 32%</small></li><li><span>Classes and community</span><small>8 ads, 22%</small></li><li><span>Coaching and progress</span><small>6 ads, 16%</small></li></ul>
+<h4>Gaps (demand visible, competitors and our ads quiet)</h4><p>Beginner support<br><small>demand score 0.21, competitor share 0%, our impressions 0, 22 records</small></p>
+</article><article class="card"><h3>New starters</h3><small>Rule: experience in none</small>
+<div class="kpis"><span><b>56</b><small>leads</small></span><span><b>12</b><small>customers</small></span>
+<span><b>21%</b><small>conversion</small></span><span><b>388</b><small>monthly value</small></span></div>
+<h4>Motivations (survey)</h4><ul><li><span>No contract</span><small>9 mentions</small></li><li><span>Coaching and progress</span><small>6 mentions</small></li><li><span>Beginner support</span><small>5 mentions</small></li></ul>
+<h4>Objections (chat and lost deals)</h4><ul><li><span>Beginner support</span><small>13 mentions</small></li><li><span>Coaching and progress</span><small>8 mentions</small></li><li><span>No contract</span><small>7 mentions</small></li></ul>
+<h4>Lost reasons (CRM)</h4><ul><li><span>felt intimidated</span><small>7 lost, 35%</small></li><li><span>no progress</span><small>4 lost, 20%</small></li><li><span>contract lockin</span><small>3 lost, 15%</small></li></ul>
+<h4>Phrases they use</h4><p><span class="chip">joining fee &times;10</span><span class="chip">open 24/7 &times;10</span><span class="chip">monthly fee &times;8</span><span class="chip">24/7 and quiet &times;8</span><span class="chip">after work &times;7</span><span class="chip">induction for beginners &times;6</span></p>
+<h4>Channels</h4><ul><li><span>paid social</span><small>18 leads</small></li><li><span>paid search</span><small>17 leads</small></li><li><span>organic search</span><small>11 leads</small></li></ul>
+<h4>What competitors say to them</h4><ul><li><span>Price and value</span><small>13 ads, 29%</small></li><li><span>Classes and community</span><small>9 ads, 20%</small></li><li><span>Coaching and progress</span><small>7 ads, 16%</small></li></ul>
+<h4>Gaps (demand visible, competitors and our ads quiet)</h4><p>No contract<br><small>demand score 0.20, competitor share 11%, our impressions 0, 32 records</small></p>
+</article><article class="card"><h3>Experienced regulars</h3><small>Rule: everything else</small>
+<div class="kpis"><span><b>91</b><small>leads</small></span><span><b>42</b><small>customers</small></span>
+<span><b>46%</b><small>conversion</small></span><span><b>1,388</b><small>monthly value</small></span></div>
+<h4>Motivations (survey)</h4><ul><li><span>Open 24/7</span><small>13 mentions</small></li><li><span>Coaching and progress</span><small>9 mentions</small></li><li><span>Price and value</span><small>6 mentions</small></li></ul>
+<h4>Objections (chat and lost deals)</h4><ul><li><span>Coaching and progress</span><small>13 mentions</small></li><li><span>Open 24/7</span><small>11 mentions</small></li><li><span>Classes and community</span><small>9 mentions</small></li></ul>
+<h4>Lost reasons (CRM)</h4><ul><li><span>contract lockin</span><small>3 lost, 23%</small></li><li><span>no progress</span><small>2 lost, 15%</small></li><li><span>no time</span><small>2 lost, 15%</small></li></ul>
+<h4>Phrases they use</h4><p><span class="chip">quiet at night &times;17</span><span class="chip">open 24/7 &times;15</span><span class="chip">joining fee &times;11</span><span class="chip">monthly fee &times;9</span><span class="chip">after work &times;9</span><span class="chip">spin classes &times;7</span></p>
+<h4>Channels</h4><ul><li><span>paid search</span><small>39 leads</small></li><li><span>organic search</span><small>22 leads</small></li><li><span>referral</span><small>18 leads</small></li></ul>
+<h4>What competitors say to them</h4><ul><li><span>Price and value</span><small>10 ads, 29%</small></li><li><span>Classes and community</span><small>8 ads, 24%</small></li><li><span>Coaching and progress</span><small>6 ads, 18%</small></li></ul>
+<h4>Gaps (demand visible, competitors and our ads quiet)</h4><p>Beginner support<br><small>demand score 0.18, competitor share 0%, our impressions 0, 19 records</small></p>
+</article></div>
+<h2>2. Ranked briefs</h2><p class="muted">72 segment, angle and format combinations scored. Weights: performance 35%, demand 20%, fit 20%, whitespace 15%, freshness 10%.
+Angles never run: no_contract.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr))"><article class="card"><div class="head"><div><span class="badge exploit">exploit</span>
+<h3>1. New starters / Beginner support</h3><small>Meta, feed_image &middot; b2c-r2-b1</small></div>
+<div><span class="score">82.8</span> <small>/ 100</small></div></div>
+<p class="muted">Best scoring opportunity among angles we have already run.</p>
+<div class="bar" role="img" aria-label="Score parts"><span style="width:27.7%;background:var(--performance)" title="performance: 27.7"></span><span style="width:20.0%;background:var(--demand)" title="demand: 20.0"></span><span style="width:20.0%;background:var(--fit)" title="fit: 20.0"></span><span style="width:8.1%;background:var(--whitespace)" title="whitespace: 8.1"></span><span style="width:7.0%;background:var(--freshness)" title="freshness: 7.0"></span></div>
+<div class="scroll"><table><tr><th>Part</th><th>Points</th><th>Why</th></tr><tr><td><span class="sw" style="background:var(--performance)"></span>performance</td><td class="num">27.7 / 35</td><td>55 leads from 40500 impressions, shrunk lift 1.58 vs format average</td></tr><tr><td><span class="sw" style="background:var(--demand)"></span>demand</td><td class="num">20.0 / 20</td><td>demand score 0.257, top angle in segment 0.257</td></tr><tr><td><span class="sw" style="background:var(--fit)"></span>fit</td><td class="num">20.0 / 20</td><td>18 mentions by this segment, most mentioned angle 18</td></tr><tr><td><span class="sw" style="background:var(--whitespace)"></span>whitespace</td><td class="num">8.1 / 15</td><td>6 competitor ads, 13% of what this segment sees</td></tr><tr><td><span class="sw" style="background:var(--freshness)"></span>freshness</td><td class="num">7.0 / 10</td><td>longest run on this segment and angle is 4 weeks, briefed 1 times before</td></tr></table></div>
+<h4>Customer language to use</h4><p><span class="chip">beginner friendly &times;5</span><span class="chip">induction for beginners &times;6</span><span class="chip">staff were kind &times;4</span></p>
+<h4>Objection to answer</h4><p>felt intimidated (7 lost)</p>
+<h4>Hook types to test</h4><p>proof, question</p>
+<h4>Evidence (records by source)</h4><p><span class="chip">memory: 2</span><span class="chip">chat: 17</span><span class="chip">crm: 7</span><span class="chip">search_demand: 2</span><span class="chip">site_search: 4</span><span class="chip">survey: 5</span><span class="chip">competitor_ads: 6</span></p></article><article class="card"><div class="head"><div><span class="badge exploit">exploit</span>
+<h3>2. Experienced regulars / Coaching and progress</h3><small>Google Ads, search_text &middot; b2c-r2-b2</small></div>
+<div><span class="score">74.9</span> <small>/ 100</small></div></div>
+<p class="muted">Best scoring opportunity among angles we have already run.</p>
+<div class="bar" role="img" aria-label="Score parts"><span style="width:28.0%;background:var(--performance)" title="performance: 28.0"></span><span style="width:16.8%;background:var(--demand)" title="demand: 16.8"></span><span style="width:18.3%;background:var(--fit)" title="fit: 18.3"></span><span style="width:6.0%;background:var(--whitespace)" title="whitespace: 6.0"></span><span style="width:5.8%;background:var(--freshness)" title="freshness: 5.8"></span></div>
+<div class="scroll"><table><tr><th>Part</th><th>Points</th><th>Why</th></tr><tr><td><span class="sw" style="background:var(--performance)"></span>performance</td><td class="num">28.0 / 35</td><td>711 leads from 102200 impressions, shrunk lift 1.60 vs format average</td></tr><tr><td><span class="sw" style="background:var(--demand)"></span>demand</td><td class="num">16.8 / 20</td><td>demand score 0.160, top angle in segment 0.190</td></tr><tr><td><span class="sw" style="background:var(--fit)"></span>fit</td><td class="num">18.3 / 20</td><td>22 mentions by this segment, most mentioned angle 24</td></tr><tr><td><span class="sw" style="background:var(--whitespace)"></span>whitespace</td><td class="num">6.0 / 15</td><td>6 competitor ads, 18% of what this segment sees</td></tr><tr><td><span class="sw" style="background:var(--freshness)"></span>freshness</td><td class="num">5.8 / 10</td><td>longest run on this segment and angle is 7 weeks, briefed 1 times before</td></tr></table></div>
+<h4>Customer language to use</h4><p><span class="chip">personal training &times;7</span><span class="chip">programme and progress &times;6</span><span class="chip">progress checks keep &times;6</span></p>
+<h4>Objection to answer</h4><p>no progress (2 lost)</p>
+<h4>Hook types to test</h4><p>proof, question</p>
+<h4>Evidence (records by source)</h4><p><span class="chip">ad_performance: 3</span><span class="chip">memory: 1</span><span class="chip">chat: 13</span><span class="chip">crm: 2</span><span class="chip">search_demand: 2</span><span class="chip">site_search: 4</span><span class="chip">survey: 9</span><span class="chip">competitor_ads: 6</span></p></article><article class="card"><div class="head"><div><span class="badge exploit">exploit</span>
+<h3>3. Experienced regulars / Open 24/7</h3><small>Google Ads, search_text &middot; b2c-r2-b3</small></div>
+<div><span class="score">70.0</span> <small>/ 100</small></div></div>
+<p class="muted">Best scoring opportunity among angles we have already run.</p>
+<div class="bar" role="img" aria-label="Score parts"><span style="width:22.5%;background:var(--performance)" title="performance: 22.5"></span><span style="width:20.0%;background:var(--demand)" title="demand: 20.0"></span><span style="width:20.0%;background:var(--fit)" title="fit: 20.0"></span><span style="width:7.5%;background:var(--whitespace)" title="whitespace: 7.5"></span><span style="width:0.0%;background:var(--freshness)" title="freshness: 0.0"></span></div>
+<div class="scroll"><table><tr><th>Part</th><th>Points</th><th>Why</th></tr><tr><td><span class="sw" style="background:var(--performance)"></span>performance</td><td class="num">22.5 / 35</td><td>323 leads from 57800 impressions, shrunk lift 1.29 vs format average</td></tr><tr><td><span class="sw" style="background:var(--demand)"></span>demand</td><td class="num">20.0 / 20</td><td>demand score 0.190, top angle in segment 0.190</td></tr><tr><td><span class="sw" style="background:var(--fit)"></span>fit</td><td class="num">20.0 / 20</td><td>24 mentions by this segment, most mentioned angle 24</td></tr><tr><td><span class="sw" style="background:var(--whitespace)"></span>whitespace</td><td class="num">7.5 / 15</td><td>5 competitor ads, 15% of what this segment sees</td></tr><tr><td><span class="sw" style="background:var(--freshness)"></span>freshness</td><td class="num">0.0 / 10</td><td>longest run on this segment and angle is 25 weeks, briefed 1 times before</td></tr></table></div>
+<h4>Customer language to use</h4><p><span class="chip">open 24/7 &times;15</span><span class="chip">quiet at night &times;17</span><span class="chip">after work &times;9</span></p>
+<h4>Objection to answer</h4><p>no time (2 lost)</p>
+<h4>Hook types to test</h4><p>proof, question</p>
+<h4>Evidence (records by source)</h4><p><span class="chip">ad_performance: 2</span><span class="chip">memory: 1</span><span class="chip">chat: 16</span><span class="chip">crm: 3</span><span class="chip">search_demand: 2</span><span class="chip">site_search: 4</span><span class="chip">survey: 13</span><span class="chip">competitor_ads: 5</span></p></article><article class="card"><div class="head"><div><span class="badge explore">explore</span>
+<h3>4. Students / No contract</h3><small>Meta, feed_image &middot; b2c-r2-b4</small></div>
+<div><span class="score">74.4</span> <small>/ 100</small></div></div>
+<p class="muted">Deliberate test: we have never run this angle, so there is no performance data behind it.</p>
+<div class="bar" role="img" aria-label="Score parts"><span style="width:17.5%;background:var(--performance)" title="performance: 17.5"></span><span style="width:19.4%;background:var(--demand)" title="demand: 19.4"></span><span style="width:20.0%;background:var(--fit)" title="fit: 20.0"></span><span style="width:7.5%;background:var(--whitespace)" title="whitespace: 7.5"></span><span style="width:10.0%;background:var(--freshness)" title="freshness: 10.0"></span></div>
+<div class="scroll"><table><tr><th>Part</th><th>Points</th><th>Why</th></tr><tr><td><span class="sw" style="background:var(--performance)"></span>performance</td><td class="num">17.5 / 35</td><td>0 leads from 0 impressions, shrunk lift 1.00 vs format average</td></tr><tr><td><span class="sw" style="background:var(--demand)"></span>demand</td><td class="num">19.4 / 20</td><td>demand score 0.226, top angle in segment 0.234</td></tr><tr><td><span class="sw" style="background:var(--fit)"></span>fit</td><td class="num">20.0 / 20</td><td>20 mentions by this segment, most mentioned angle 20</td></tr><tr><td><span class="sw" style="background:var(--whitespace)"></span>whitespace</td><td class="num">7.5 / 15</td><td>5 competitor ads, 14% of what this segment sees</td></tr><tr><td><span class="sw" style="background:var(--freshness)"></span>freshness</td><td class="num">10.0 / 10</td><td>longest run on this segment and angle is 0 weeks, briefed 0 times before</td></tr></table></div>
+<h4>Customer language to use</h4><p><span class="chip">cancel anytime &times;8</span><span class="chip">no contract &times;4</span><span class="chip">minimum contract length &times;8</span></p>
+<h4>Objection to answer</h4><p>contract lockin (2 lost)</p>
+<h4>Hook types to test</h4><p>proof, question</p>
+<h4>Evidence (records by source)</h4><p><span class="chip">chat: 16</span><span class="chip">crm: 2</span><span class="chip">search_demand: 2</span><span class="chip">site_search: 4</span><span class="chip">survey: 7</span><span class="chip">competitor_ads: 5</span></p></article></div>
+<h2>3. Creatives</h2><p class="muted">Every variant starts as pending. A person approves or rejects it. Variants that fail a guardrail are rejected automatically.</p>
+<h4>b2c-r2-b1: New starters / Beginner support / Meta</h4><div class="grid"><article class="card"><div class="visual"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="b2c-r2-b1-v1: A coach shows you every step" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="1080" fill="#0B3954"/>
+<circle cx="1080" cy="1080" r="453" fill="#12507A"/>
+<circle cx="1080" cy="0" r="302" fill="#FF6B35"/>
+<rect x="81" y="81" width="64" height="64" rx="14" fill="#FF6B35"/>
+<path d="M93 119 q10 -19 20 0 t20 0" fill="none" stroke="#0B3954" stroke-width="6" stroke-linecap="round"/>
+<text x="164" y="125" font-size="32" font-weight="700" fill="#FFFFFF">Harbour Fitness</text>
+<rect x="81" y="523" width="125" height="9" fill="#FF6B35"/>
+<text x="81" y="651" font-size="104" font-weight="700" fill="#FFFFFF">A coach shows</text>
+<text x="81" y="767" font-size="104" font-weight="700" fill="#FFFFFF">you every step</text>
+<rect x="81" y="852" width="346" height="99" rx="49" fill="#FF6B35"/>
+<text x="254" y="916" font-size="42" font-weight="700" text-anchor="middle" fill="#0B3954">Book Now</text>
+<text x="81" y="999" font-size="25" fill="#BFD7EA">Terms apply.</text>
+</svg>
+</div><div class="head"><small>b2c-r2-b1-v1 &middot; proof hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>28 / 40</small></h4><p class="copy">A coach shows you every step</p>
+<h4>Primary text <small>117 / 125</small></h4><p class="copy">Many of you mention &quot;beginner friendly&quot;. Start with a free one to one induction and a simple first plan. Terms apply.</p>
+<h4>Button</h4><p>Book Now</p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li><li><span>visual_fit</span><small class="pass">ok</small></li></ul></article><article class="card"><div class="visual"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="b2c-r2-b1-v2: Never been to a gym before?" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="1080" fill="#0B3954"/>
+<circle cx="1080" cy="1080" r="453" fill="#12507A"/>
+<circle cx="1080" cy="0" r="302" fill="#FF6B35"/>
+<rect x="81" y="81" width="64" height="64" rx="14" fill="#FF6B35"/>
+<path d="M93 119 q10 -19 20 0 t20 0" fill="none" stroke="#0B3954" stroke-width="6" stroke-linecap="round"/>
+<text x="164" y="125" font-size="32" font-weight="700" fill="#FFFFFF">Harbour Fitness</text>
+<rect x="81" y="523" width="125" height="9" fill="#FF6B35"/>
+<text x="81" y="651" font-size="104" font-weight="700" fill="#FFFFFF">Never been to a</text>
+<text x="81" y="767" font-size="104" font-weight="700" fill="#FFFFFF">gym before?</text>
+<rect x="81" y="852" width="346" height="99" rx="49" fill="#FF6B35"/>
+<text x="254" y="916" font-size="42" font-weight="700" text-anchor="middle" fill="#0B3954">Book Now</text>
+<text x="81" y="999" font-size="25" fill="#BFD7EA">Terms apply.</text>
+</svg>
+</div><div class="head"><small>b2c-r2-b1-v2 &middot; question hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>27 / 40</small></h4><p class="copy">Never been to a gym before?</p>
+<h4>Primary text <small>117 / 125</small></h4><p class="copy">Many of you mention &quot;beginner friendly&quot;. Start with a free one to one induction and a simple first plan. Terms apply.</p>
+<h4>Button</h4><p>Book Now</p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li><li><span>visual_fit</span><small class="pass">ok</small></li></ul></article></div><h4>b2c-r2-b2: Experienced regulars / Coaching and progress / Google Ads</h4><div class="grid"><article class="card"><div class="visual textad"><small>Text ad, no image</small><br><b>Guaranteed results in 6 weeks</b><br>A coach writes your programme and checks progress monthly.</div><div class="head"><small>b2c-r2-b2-v1 &middot; proof hook &middot; template generator</small>
+<span class="badge rejected_by_guardrails">rejected by guardrails</span></div>
+<h4>Headline <small>29 / 30</small></h4><p class="copy">Guaranteed results in 6 weeks</p>
+<h4>Primary text <small>58 / 90</small></h4><p class="copy">A coach writes your programme and checks progress monthly.</p>
+<h4>Button</h4><p><span class="muted">none on this placement</span></p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="fail">guarantee: &#x27;Guarantee&#x27;</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li></ul></article><article class="card"><div class="visual textad"><small>Text ad, no image</small><br><b>Not seeing progress?</b><br>A coach writes your programme and checks progress monthly.</div><div class="head"><small>b2c-r2-b2-v2 &middot; question hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>20 / 30</small></h4><p class="copy">Not seeing progress?</p>
+<h4>Primary text <small>58 / 90</small></h4><p class="copy">A coach writes your programme and checks progress monthly.</p>
+<h4>Button</h4><p><span class="muted">none on this placement</span></p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li></ul></article></div><h4>b2c-r2-b3: Experienced regulars / Open 24/7 / Google Ads</h4><div class="grid"><article class="card"><div class="visual textad"><small>Text ad, no image</small><br><b>Quiet at 6am. Quiet at 10pm.</b><br>Every location is open 24/7. Train when it suits you.</div><div class="head"><small>b2c-r2-b3-v1 &middot; proof hook &middot; template generator</small>
+<span class="badge rejected_by_guardrails">rejected by guardrails</span></div>
+<h4>Headline <small>28 / 30</small></h4><p class="copy">Quiet at 6am. Quiet at 10pm.</p>
+<h4>Primary text <small>53 / 90</small></h4><p class="copy">Every location is open 24/7. Train when it suits you.</p>
+<h4>Button</h4><p><span class="muted">none on this placement</span></p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="fail">a reviewer rejected this headline for this segment before: We cannot promise quiet hours at every location.</small></li></ul></article><article class="card"><div class="visual textad"><small>Text ad, no image</small><br><b>Gym too busy after work?</b><br>Every location is open 24/7. Train when it suits you.</div><div class="head"><small>b2c-r2-b3-v2 &middot; question hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>24 / 30</small></h4><p class="copy">Gym too busy after work?</p>
+<h4>Primary text <small>53 / 90</small></h4><p class="copy">Every location is open 24/7. Train when it suits you.</p>
+<h4>Button</h4><p><span class="muted">none on this placement</span></p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li></ul></article></div><h4>b2c-r2-b4: Students / No contract / Meta</h4><div class="grid"><article class="card"><div class="visual"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="b2c-r2-b4-v1: Cancel online in 2 minutes" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="1080" fill="#0B3954"/>
+<circle cx="1080" cy="1080" r="453" fill="#12507A"/>
+<circle cx="1080" cy="0" r="302" fill="#FF6B35"/>
+<rect x="81" y="81" width="64" height="64" rx="14" fill="#FF6B35"/>
+<path d="M93 119 q10 -19 20 0 t20 0" fill="none" stroke="#0B3954" stroke-width="6" stroke-linecap="round"/>
+<text x="164" y="125" font-size="32" font-weight="700" fill="#FFFFFF">Harbour Fitness</text>
+<rect x="81" y="571" width="125" height="9" fill="#FF6B35"/>
+<text x="81" y="699" font-size="104" font-weight="700" fill="#FFFFFF">Cancel online in</text>
+<text x="81" y="815" font-size="104" font-weight="700" fill="#FFFFFF">2 minutes</text>
+<rect x="81" y="900" width="295" height="99" rx="49" fill="#FF6B35"/>
+<text x="228" y="964" font-size="42" font-weight="700" text-anchor="middle" fill="#0B3954">Sign Up</text>
+</svg>
+</div><div class="head"><small>b2c-r2-b4-v1 &middot; proof hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>26 / 40</small></h4><p class="copy">Cancel online in 2 minutes</p>
+<h4>Primary text <small>96 / 125</small></h4><p class="copy">You asked about &quot;cancel anytime&quot;. Our answer: no contract, pay monthly, freeze or cancel online.</p>
+<h4>Button</h4><p>Sign Up</p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li><li><span>visual_fit</span><small class="pass">ok</small></li></ul></article><article class="card"><div class="visual"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="b2c-r2-b4-v2: Tired of gym contracts?" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="1080" fill="#0B3954"/>
+<circle cx="1080" cy="1080" r="453" fill="#12507A"/>
+<circle cx="1080" cy="0" r="302" fill="#FF6B35"/>
+<rect x="81" y="81" width="64" height="64" rx="14" fill="#FF6B35"/>
+<path d="M93 119 q10 -19 20 0 t20 0" fill="none" stroke="#0B3954" stroke-width="6" stroke-linecap="round"/>
+<text x="164" y="125" font-size="32" font-weight="700" fill="#FFFFFF">Harbour Fitness</text>
+<rect x="81" y="571" width="125" height="9" fill="#FF6B35"/>
+<text x="81" y="699" font-size="104" font-weight="700" fill="#FFFFFF">Tired of gym</text>
+<text x="81" y="815" font-size="104" font-weight="700" fill="#FFFFFF">contracts?</text>
+<rect x="81" y="900" width="295" height="99" rx="49" fill="#FF6B35"/>
+<text x="228" y="964" font-size="42" font-weight="700" text-anchor="middle" fill="#0B3954">Sign Up</text>
+</svg>
+</div><div class="head"><small>b2c-r2-b4-v2 &middot; question hook &middot; template generator</small>
+<span class="badge pending">pending</span></div>
+<h4>Headline <small>23 / 40</small></h4><p class="copy">Tired of gym contracts?</p>
+<h4>Primary text <small>96 / 125</small></h4><p class="copy">You asked about &quot;cancel anytime&quot;. Our answer: no contract, pay monthly, freeze or cancel online.</p>
+<h4>Button</h4><p>Sign Up</p>
+<h4>Guardrails</h4><ul><li><span>length</span><small class="pass">ok</small></li><li><span>cta_allowed</span><small class="pass">ok</small></li><li><span>banned_claims</span><small class="pass">ok</small></li><li><span>disclaimer</span><small class="pass">ok</small></li><li><span>brand_spelling</span><small class="pass">ok</small></li><li><span>competitor_names</span><small class="pass">ok</small></li><li><span>not_rejected_before</span><small class="pass">ok</small></li><li><span>visual_fit</span><small class="pass">ok</small></li></ul></article></div>
+<h2>4. Experiment memory</h2><p class="muted">39 events in the append-only log. Imported results feed the next recommendation run.</p>
+<div class="card scroll"><table><tr><th>Run</th><th>Variant</th><th>Segment / angle / format</th><th>Headline</th>
+<th>Status</th><th>Review note</th><th>Result</th></tr><tr><td class="num">1</td><td>b2c-r1-b1-v1</td><td>regulars / coaching / search_text</td><td>Guaranteed results in 6 weeks</td><td><span class="badge rejected_by_guardrails">rejected by guardrails</span></td><td></td><td></td></tr><tr><td class="num">1</td><td>b2c-r1-b1-v2</td><td>regulars / coaching / search_text</td><td>Not seeing progress?</td><td><span class="badge approved">approved</span></td><td>Fine as a search ad.</td><td>9,000 impressions, 410 clicks, 44 leads</td></tr><tr><td class="num">1</td><td>b2c-r1-b2-v1</td><td>regulars / open_24_7 / search_text</td><td>Quiet at 6am. Quiet at 10pm.</td><td><span class="badge rejected">rejected</span></td><td>We cannot promise quiet hours at every location.</td><td></td></tr><tr><td class="num">1</td><td>b2c-r1-b2-v2</td><td>regulars / open_24_7 / search_text</td><td>Gym too busy after work?</td><td><span class="badge approved">approved</span></td><td>Clear and true.</td><td>8,000 impressions, 350 clicks, 30 leads</td></tr><tr><td class="num">1</td><td>b2c-r1-b3-v1</td><td>families / price_value / story_image</td><td>No joining fee. Ever.</td><td><span class="badge approved">approved</span></td><td>Check the joining fee policy stays in place this quarter.</td><td>15,000 impressions, 120 clicks, 5 leads</td></tr><tr><td class="num">1</td><td>b2c-r1-b3-v2</td><td>families / price_value / story_image</td><td>Paying too much for your gym?</td><td><span class="badge approved">approved</span></td><td></td><td>15,500 impressions, 130 clicks, 9 leads</td></tr><tr><td class="num">1</td><td>b2c-r1-b4-v1</td><td>new_starters / beginner_support / feed_image</td><td>A coach shows you every step</td><td><span class="badge approved">approved</span></td><td>Explore test. Inductions are available at all four locations.</td><td>21,000 impressions, 290 clicks, 31 leads</td></tr><tr><td class="num">1</td><td>b2c-r1-b4-v2</td><td>new_starters / beginner_support / feed_image</td><td>Never been to a gym before?</td><td><span class="badge approved">approved</span></td><td>Explore test.</td><td>19,500 impressions, 250 clicks, 24 leads</td></tr><tr><td class="num">2</td><td>b2c-r2-b1-v1</td><td>new_starters / beginner_support / feed_image</td><td>A coach shows you every step</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b1-v2</td><td>new_starters / beginner_support / feed_image</td><td>Never been to a gym before?</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b2-v1</td><td>regulars / coaching / search_text</td><td>Guaranteed results in 6 weeks</td><td><span class="badge rejected_by_guardrails">rejected by guardrails</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b2-v2</td><td>regulars / coaching / search_text</td><td>Not seeing progress?</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b3-v1</td><td>regulars / open_24_7 / search_text</td><td>Quiet at 6am. Quiet at 10pm.</td><td><span class="badge rejected_by_guardrails">rejected by guardrails</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b3-v2</td><td>regulars / open_24_7 / search_text</td><td>Gym too busy after work?</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b4-v1</td><td>students / no_contract / feed_image</td><td>Cancel online in 2 minutes</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr><tr><td class="num">2</td><td>b2c-r2-b4-v2</td><td>students / no_contract / feed_image</td><td>Tired of gym contracts?</td><td><span class="badge pending">pending</span></td><td></td><td></td></tr></table></div>
+<footer>Generated by the audience-to-creative example pipeline. Synthetic data only.</footer>
+</main></body></html>

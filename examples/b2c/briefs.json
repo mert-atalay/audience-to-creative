@@ -1,0 +1,573 @@
+{
+ "profile": "b2c",
+ "run": 2,
+ "weights": { "performance": 0.35, "demand": 0.2, "fit": 0.2, "whitespace": 0.15, "freshness": 0.1 },
+ "rules": { "prior_leads": 15, "min_impressions": 2000, "fatigue_weeks": 26, "repeat_penalty": 0.15 },
+ "format_baseline_leads_per_1000_impressions": { "feed_image": 0.721, "story_image": 0.439, "search_text": 4.29 },
+ "hook_lift": { "question": 1.096, "direct": 0.802, "proof": 1.138 },
+ "considered": 72,
+ "untried_angles": [ "no_contract" ],
+ "briefs": [
+  {
+   "id": "b2c-r2-b1",
+   "rank": 1,
+   "run": 2,
+   "slot": "exploit",
+   "slot_note": "Best scoring opportunity among angles we have already run.",
+   "segment": "new_starters",
+   "segment_label": "New starters",
+   "angle": "beginner_support",
+   "angle_label": "Beginner support",
+   "format": "feed_image",
+   "platform": "Meta",
+   "hooks": [ "proof", "question" ],
+   "language": [
+    {
+     "phrase": "beginner friendly",
+     "count": 5,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0051", "chat-0054", "chat-0071" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-011" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0002" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "phrase": "induction for beginners",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0041", "chat-0070", "chat-0072", "chat-0098", "chat-0103", "chat-0105" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "phrase": "staff were kind",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-008", "rev-016", "rev-022", "rev-027" ],
+       "count": 4
+      }
+     ]
+    }
+   ],
+   "objection": {
+    "reason": "felt_intimidated",
+    "count": 7,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0030", "crm-0058", "crm-0073", "crm-0075", "crm-0085", "crm-0149", "crm-0183" ],
+      "count": 7
+     }
+    ]
+   },
+   "score": {
+    "total": 82.8,
+    "parts": {
+     "performance": { "value": 0.792, "weight": 0.35, "points": 27.7, "detail": "55 leads from 40500 impressions, shrunk lift 1.58 vs format average" },
+     "demand": { "value": 1.0, "weight": 0.2, "points": 20.0, "detail": "demand score 0.257, top angle in segment 0.257" },
+     "fit": { "value": 1.0, "weight": 0.2, "points": 20.0, "detail": "18 mentions by this segment, most mentioned angle 18" },
+     "whitespace": { "value": 0.539, "weight": 0.15, "points": 8.1, "detail": "6 competitor ads, 13% of what this segment sees" },
+     "freshness": { "value": 0.696, "weight": 0.1, "points": 7.0, "detail": "longest run on this segment and angle is 4 weeks, briefed 1 times before" }
+    }
+   },
+   "sample": { "impressions": 40500, "leads": 55, "expected_leads": 29.2 },
+   "evidence": [
+    {
+     "source": "memory",
+     "ids": [ "mem-0025", "mem-0026" ],
+     "count": 2
+    },
+    {
+     "source": "chat",
+     "ids": [ "chat-0001", "chat-0021", "chat-0041", "chat-0042", "chat-0049", "chat-0051", "chat-0054", "chat-0061", "chat-0068", "chat-0070", "chat-0071", "chat-0072", "chat-0085", "chat-0088", "chat-0098", "chat-0103", "chat-0105" ],
+     "count": 17
+    },
+    {
+     "source": "crm",
+     "ids": [ "crm-0030", "crm-0058", "crm-0073", "crm-0075", "crm-0085", "crm-0149", "crm-0183" ],
+     "count": 7
+    },
+    {
+     "source": "search_demand",
+     "ids": [ "sd-005", "sd-006" ],
+     "count": 2
+    },
+    {
+     "source": "site_search",
+     "ids": [ "ss-009", "ss-010", "ss-011", "ss-012" ],
+     "count": 4
+    },
+    {
+     "source": "survey",
+     "ids": [ "srv-0002", "srv-0041", "srv-0064", "srv-0065", "srv-0078" ],
+     "count": 5
+    },
+    {
+     "source": "competitor_ads",
+     "ids": [ "comp-005", "comp-010", "comp-025", "comp-031", "comp-037", "comp-038" ],
+     "count": 6
+    }
+   ]
+  },
+  {
+   "id": "b2c-r2-b2",
+   "rank": 2,
+   "run": 2,
+   "slot": "exploit",
+   "slot_note": "Best scoring opportunity among angles we have already run.",
+   "segment": "regulars",
+   "segment_label": "Experienced regulars",
+   "angle": "coaching",
+   "angle_label": "Coaching and progress",
+   "format": "search_text",
+   "platform": "Google Ads",
+   "hooks": [ "proof", "question" ],
+   "language": [
+    {
+     "phrase": "personal training",
+     "count": 7,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0015", "chat-0044", "chat-0062", "chat-0109", "chat-0124" ],
+       "count": 5
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-021" ],
+       "count": 1
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0024" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "phrase": "programme and progress",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0026", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0082" ],
+       "count": 6
+      }
+     ]
+    },
+    {
+     "phrase": "progress checks keep",
+     "count": 6,
+     "evidence": [
+      {
+       "source": "survey",
+       "ids": [ "srv-0026", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0082" ],
+       "count": 6
+      }
+     ]
+    }
+   ],
+   "objection": {
+    "reason": "no_progress",
+    "count": 2,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0018", "crm-0231" ],
+      "count": 2
+     }
+    ]
+   },
+   "score": {
+    "total": 74.9,
+    "parts": {
+     "performance": { "value": 0.801, "weight": 0.35, "points": 28.0, "detail": "711 leads from 102200 impressions, shrunk lift 1.60 vs format average" },
+     "demand": { "value": 0.841, "weight": 0.2, "points": 16.8, "detail": "demand score 0.160, top angle in segment 0.190" },
+     "fit": { "value": 0.917, "weight": 0.2, "points": 18.3, "detail": "22 mentions by this segment, most mentioned angle 24" },
+     "whitespace": { "value": 0.4, "weight": 0.15, "points": 6.0, "detail": "6 competitor ads, 18% of what this segment sees" },
+     "freshness": { "value": 0.581, "weight": 0.1, "points": 5.8, "detail": "longest run on this segment and angle is 7 weeks, briefed 1 times before" }
+    }
+   },
+   "sample": { "impressions": 102200, "leads": 711, "expected_leads": 438.4 },
+   "evidence": [
+    {
+     "source": "ad_performance",
+     "ids": [ "ad-081", "ad-082", "ad-083" ],
+     "count": 3
+    },
+    {
+     "source": "memory",
+     "ids": [ "mem-0021" ],
+     "count": 1
+    },
+    {
+     "source": "chat",
+     "ids": [ "chat-0003", "chat-0015", "chat-0044", "chat-0062", "chat-0091", "chat-0095", "chat-0097", "chat-0102", "chat-0104", "chat-0109", "chat-0111", "chat-0115", "chat-0124" ],
+     "count": 13
+    },
+    {
+     "source": "crm",
+     "ids": [ "crm-0018", "crm-0231" ],
+     "count": 2
+    },
+    {
+     "source": "search_demand",
+     "ids": [ "sd-011", "sd-012" ],
+     "count": 2
+    },
+    {
+     "source": "site_search",
+     "ids": [ "ss-021", "ss-022", "ss-023", "ss-024" ],
+     "count": 4
+    },
+    {
+     "source": "survey",
+     "ids": [ "srv-0024", "srv-0026", "srv-0030", "srv-0049", "srv-0054", "srv-0057", "srv-0070", "srv-0079", "srv-0082" ],
+     "count": 9
+    },
+    {
+     "source": "competitor_ads",
+     "ids": [ "comp-002", "comp-007", "comp-017", "comp-022", "comp-027", "comp-029" ],
+     "count": 6
+    }
+   ]
+  },
+  {
+   "id": "b2c-r2-b3",
+   "rank": 3,
+   "run": 2,
+   "slot": "exploit",
+   "slot_note": "Best scoring opportunity among angles we have already run.",
+   "segment": "regulars",
+   "segment_label": "Experienced regulars",
+   "angle": "open_24_7",
+   "angle_label": "Open 24/7",
+   "format": "search_text",
+   "platform": "Google Ads",
+   "hooks": [ "proof", "question" ],
+   "language": [
+    {
+     "phrase": "open 24/7",
+     "count": 15,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0087", "chat-0100", "chat-0118", "chat-0130" ],
+       "count": 4
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0023", "srv-0029", "srv-0040" ],
+       "count": 3
+      }
+     ]
+    },
+    {
+     "phrase": "quiet at night",
+     "count": 17,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-002", "rev-003", "rev-006", "rev-011", "rev-015", "rev-017", "rev-035", "rev-036" ],
+       "count": 8
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0027", "srv-0039", "srv-0046", "srv-0050", "srv-0052", "srv-0071", "srv-0081", "srv-0084", "srv-0095" ],
+       "count": 9
+      }
+     ]
+    },
+    {
+     "phrase": "after work",
+     "count": 9,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0002", "chat-0030", "chat-0040", "chat-0090", "chat-0093", "chat-0094", "chat-0127" ],
+       "count": 7
+      },
+      {
+       "source": "reviews",
+       "ids": [ "rev-012", "rev-030" ],
+       "count": 2
+      }
+     ]
+    }
+   ],
+   "objection": {
+    "reason": "no_time",
+    "count": 2,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0089", "crm-0123" ],
+      "count": 2
+     }
+    ]
+   },
+   "score": {
+    "total": 70.0,
+    "parts": {
+     "performance": { "value": 0.643, "weight": 0.35, "points": 22.5, "detail": "323 leads from 57800 impressions, shrunk lift 1.29 vs format average" },
+     "demand": { "value": 1.0, "weight": 0.2, "points": 20.0, "detail": "demand score 0.190, top angle in segment 0.190" },
+     "fit": { "value": 1.0, "weight": 0.2, "points": 20.0, "detail": "24 mentions by this segment, most mentioned angle 24" },
+     "whitespace": { "value": 0.5, "weight": 0.15, "points": 7.5, "detail": "5 competitor ads, 15% of what this segment sees" },
+     "freshness": { "value": 0.0, "weight": 0.1, "points": 0.0, "detail": "longest run on this segment and angle is 25 weeks, briefed 1 times before" }
+    }
+   },
+   "sample": { "impressions": 57800, "leads": 323, "expected_leads": 248.0 },
+   "evidence": [
+    {
+     "source": "ad_performance",
+     "ids": [ "ad-071", "ad-072" ],
+     "count": 2
+    },
+    {
+     "source": "memory",
+     "ids": [ "mem-0022" ],
+     "count": 1
+    },
+    {
+     "source": "chat",
+     "ids": [ "chat-0002", "chat-0011", "chat-0022", "chat-0030", "chat-0031", "chat-0040", "chat-0084", "chat-0087", "chat-0090", "chat-0093", "chat-0094", "chat-0100", "chat-0101", "chat-0118", "chat-0127", "chat-0130" ],
+     "count": 16
+    },
+    {
+     "source": "crm",
+     "ids": [ "crm-0089", "crm-0123", "crm-0206" ],
+     "count": 3
+    },
+    {
+     "source": "search_demand",
+     "ids": [ "sd-007", "sd-008" ],
+     "count": 2
+    },
+    {
+     "source": "site_search",
+     "ids": [ "ss-013", "ss-014", "ss-015", "ss-016" ],
+     "count": 4
+    },
+    {
+     "source": "survey",
+     "ids": [ "srv-0023", "srv-0027", "srv-0029", "srv-0039", "srv-0040", "srv-0046", "srv-0047", "srv-0050", "srv-0052", "srv-0071", "srv-0081", "srv-0084", "srv-0095" ],
+     "count": 13
+    },
+    {
+     "source": "competitor_ads",
+     "ids": [ "comp-001", "comp-006", "comp-015", "comp-030", "comp-044" ],
+     "count": 5
+    }
+   ]
+  },
+  {
+   "id": "b2c-r2-b4",
+   "rank": 4,
+   "run": 2,
+   "slot": "explore",
+   "slot_note": "Deliberate test: we have never run this angle, so there is no performance data behind it.",
+   "segment": "students",
+   "segment_label": "Students",
+   "angle": "no_contract",
+   "angle_label": "No contract",
+   "format": "feed_image",
+   "platform": "Meta",
+   "hooks": [ "proof", "question" ],
+   "language": [
+    {
+     "phrase": "cancel anytime",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0034", "chat-0075", "chat-0086", "chat-0089" ],
+       "count": 4
+      },
+      {
+       "source": "survey",
+       "ids": [ "srv-0034", "srv-0042", "srv-0045", "srv-0069" ],
+       "count": 4
+      }
+     ]
+    },
+    {
+     "phrase": "no contract",
+     "count": 4,
+     "evidence": [
+      {
+       "source": "reviews",
+       "ids": [ "rev-024", "rev-029", "rev-034" ],
+       "count": 3
+      },
+      {
+       "source": "site_search",
+       "ids": [ "ss-006" ],
+       "count": 1
+      }
+     ]
+    },
+    {
+     "phrase": "minimum contract length",
+     "count": 8,
+     "evidence": [
+      {
+       "source": "chat",
+       "ids": [ "chat-0012", "chat-0019", "chat-0065", "chat-0073", "chat-0078", "chat-0081", "chat-0083", "chat-0117" ],
+       "count": 8
+      }
+     ]
+    }
+   ],
+   "objection": {
+    "reason": "contract_lockin",
+    "count": 2,
+    "evidence": [
+     {
+      "source": "crm",
+      "ids": [ "crm-0009", "crm-0019" ],
+      "count": 2
+     }
+    ]
+   },
+   "score": {
+    "total": 74.4,
+    "parts": {
+     "performance": { "value": 0.5, "weight": 0.35, "points": 17.5, "detail": "0 leads from 0 impressions, shrunk lift 1.00 vs format average" },
+     "demand": { "value": 0.968, "weight": 0.2, "points": 19.4, "detail": "demand score 0.226, top angle in segment 0.234" },
+     "fit": { "value": 1.0, "weight": 0.2, "points": 20.0, "detail": "20 mentions by this segment, most mentioned angle 20" },
+     "whitespace": { "value": 0.5, "weight": 0.15, "points": 7.5, "detail": "5 competitor ads, 14% of what this segment sees" },
+     "freshness": { "value": 1.0, "weight": 0.1, "points": 10.0, "detail": "longest run on this segment and angle is 0 weeks, briefed 0 times before" }
+    }
+   },
+   "sample": { "impressions": 0, "leads": 0, "expected_leads": 0 },
+   "evidence": [
+    {
+     "source": "chat",
+     "ids": [ "chat-0012", "chat-0018", "chat-0019", "chat-0034", "chat-0047", "chat-0056", "chat-0065", "chat-0073", "chat-0075", "chat-0078", "chat-0081", "chat-0083", "chat-0086", "chat-0089", "chat-0117", "chat-0119" ],
+     "count": 16
+    },
+    {
+     "source": "crm",
+     "ids": [ "crm-0009", "crm-0019" ],
+     "count": 2
+    },
+    {
+     "source": "search_demand",
+     "ids": [ "sd-003", "sd-004" ],
+     "count": 2
+    },
+    {
+     "source": "site_search",
+     "ids": [ "ss-005", "ss-006", "ss-007", "ss-008" ],
+     "count": 4
+    },
+    {
+     "source": "survey",
+     "ids": [ "srv-0003", "srv-0034", "srv-0042", "srv-0045", "srv-0053", "srv-0069", "srv-0094" ],
+     "count": 7
+    },
+    {
+     "source": "competitor_ads",
+     "ids": [ "comp-003", "comp-026", "comp-034", "comp-036", "comp-040" ],
+     "count": 5
+    }
+   ]
+  }
+ ],
+ "ranking": [
+  { "segment": "new_starters", "angle": "beginner_support", "format": "feed_image", "score": 82.8, "performance_points": 27.7, "impressions": 40500, "leads": 55, "expected_leads": 29.2 },
+  { "segment": "regulars", "angle": "coaching", "format": "search_text", "score": 74.9, "performance_points": 28.0, "impressions": 102200, "leads": 711, "expected_leads": 438.4 },
+  { "segment": "students", "angle": "no_contract", "format": "feed_image", "score": 74.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "no_contract", "format": "search_text", "score": 74.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "no_contract", "format": "story_image", "score": 74.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "beginner_support", "format": "search_text", "score": 72.6, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "beginner_support", "format": "story_image", "score": 72.6, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "open_24_7", "format": "search_text", "score": 70.0, "performance_points": 22.5, "impressions": 57800, "leads": 323, "expected_leads": 248.0 },
+  { "segment": "new_starters", "angle": "no_contract", "format": "feed_image", "score": 69.8, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "no_contract", "format": "search_text", "score": 69.8, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "no_contract", "format": "story_image", "score": 69.8, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "families", "angle": "beginner_support", "format": "feed_image", "score": 69.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "families", "angle": "beginner_support", "format": "search_text", "score": 69.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "families", "angle": "beginner_support", "format": "story_image", "score": 69.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "open_24_7", "format": "story_image", "score": 69.4, "performance_points": 21.9, "impressions": 29600, "leads": 20, "expected_leads": 13.0 },
+  { "segment": "families", "angle": "no_contract", "format": "feed_image", "score": 68.5, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "families", "angle": "no_contract", "format": "search_text", "score": 68.5, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "families", "angle": "no_contract", "format": "story_image", "score": 68.5, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "open_24_7", "format": "feed_image", "score": 67.1, "performance_points": 19.6, "impressions": 74600, "leads": 62, "expected_leads": 53.8 },
+  { "segment": "regulars", "angle": "coaching", "format": "feed_image", "score": 65.7, "performance_points": 18.8, "impressions": 50200, "leads": 40, "expected_leads": 36.2 },
+  { "segment": "students", "angle": "beginner_support", "format": "feed_image", "score": 65.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "beginner_support", "format": "search_text", "score": 65.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "beginner_support", "format": "story_image", "score": 65.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "coaching", "format": "story_image", "score": 65.3, "performance_points": 18.4, "impressions": 17800, "leads": 9, "expected_leads": 7.8 },
+  { "segment": "families", "angle": "price_value", "format": "story_image", "score": 63.3, "performance_points": 17.9, "impressions": 45900, "leads": 21, "expected_leads": 20.1 },
+  { "segment": "families", "angle": "price_value", "format": "feed_image", "score": 62.9, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "beginner_support", "format": "feed_image", "score": 62.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "beginner_support", "format": "search_text", "score": 62.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "beginner_support", "format": "story_image", "score": 62.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "no_contract", "format": "feed_image", "score": 62.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "no_contract", "format": "search_text", "score": 62.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "no_contract", "format": "story_image", "score": 62.4, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "price_value", "format": "search_text", "score": 62.2, "performance_points": 21.4, "impressions": 89300, "leads": 471, "expected_leads": 383.1 },
+  { "segment": "students", "angle": "price_value", "format": "feed_image", "score": 61.7, "performance_points": 20.9, "impressions": 60400, "leads": 55, "expected_leads": 43.5 },
+  { "segment": "families", "angle": "price_value", "format": "search_text", "score": 59.8, "performance_points": 14.4, "impressions": 49300, "leads": 172, "expected_leads": 211.5 },
+  { "segment": "students", "angle": "price_value", "format": "story_image", "score": 59.8, "performance_points": 19.0, "impressions": 12100, "leads": 7, "expected_leads": 5.3 },
+  { "segment": "families", "angle": "classes", "format": "story_image", "score": 58.8, "performance_points": 19.2, "impressions": 46800, "leads": 24, "expected_leads": 20.5 },
+  { "segment": "new_starters", "angle": "coaching", "format": "story_image", "score": 58.1, "performance_points": 17.8, "impressions": 77900, "leads": 35, "expected_leads": 34.2 },
+  { "segment": "families", "angle": "classes", "format": "search_text", "score": 57.7, "performance_points": 18.1, "impressions": 91500, "leads": 406, "expected_leads": 392.5 },
+  { "segment": "new_starters", "angle": "coaching", "format": "search_text", "score": 57.7, "performance_points": 17.4, "impressions": 61800, "leads": 264, "expected_leads": 265.1 },
+  { "segment": "new_starters", "angle": "coaching", "format": "feed_image", "score": 57.5, "performance_points": 17.2, "impressions": 11700, "leads": 8, "expected_leads": 8.4 },
+  { "segment": "families", "angle": "classes", "format": "feed_image", "score": 56.1, "performance_points": 16.5, "impressions": 36700, "leads": 24, "expected_leads": 26.4 },
+  { "segment": "families", "angle": "open_24_7", "format": "feed_image", "score": 55.7, "performance_points": 20.2, "impressions": 59700, "leads": 52, "expected_leads": 43.0 },
+  { "segment": "families", "angle": "open_24_7", "format": "story_image", "score": 53.0, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "classes", "format": "story_image", "score": 51.8, "performance_points": 16.8, "impressions": 15800, "leads": 6, "expected_leads": 6.9 },
+  { "segment": "families", "angle": "open_24_7", "format": "search_text", "score": 51.3, "performance_points": 15.8, "impressions": 8400, "leads": 31, "expected_leads": 36.0 },
+  { "segment": "regulars", "angle": "classes", "format": "feed_image", "score": 50.4, "performance_points": 15.4, "impressions": 26600, "leads": 15, "expected_leads": 19.2 },
+  { "segment": "regulars", "angle": "price_value", "format": "story_image", "score": 50.2, "performance_points": 17.6, "impressions": 17900, "leads": 8, "expected_leads": 7.9 },
+  { "segment": "new_starters", "angle": "classes", "format": "feed_image", "score": 49.6, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "classes", "format": "search_text", "score": 49.6, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "regulars", "angle": "price_value", "format": "feed_image", "score": 48.1, "performance_points": 15.5, "impressions": 18400, "leads": 10, "expected_leads": 13.3 },
+  { "segment": "new_starters", "angle": "classes", "format": "story_image", "score": 47.8, "performance_points": 15.7, "impressions": 16700, "leads": 5, "expected_leads": 7.3 },
+  { "segment": "regulars", "angle": "classes", "format": "search_text", "score": 46.8, "performance_points": 11.8, "impressions": 76200, "leads": 215, "expected_leads": 326.9 },
+  { "segment": "families", "angle": "coaching", "format": "story_image", "score": 46.7, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "students", "angle": "open_24_7", "format": "story_image", "score": 46.6, "performance_points": 18.4, "impressions": 52500, "leads": 25, "expected_leads": 23.0 },
+  { "segment": "new_starters", "angle": "price_value", "format": "search_text", "score": 46.5, "performance_points": 16.4, "impressions": 33300, "leads": 133, "expected_leads": 142.9 },
+  { "segment": "new_starters", "angle": "price_value", "format": "story_image", "score": 46.2, "performance_points": 16.1, "impressions": 27900, "leads": 10, "expected_leads": 12.2 },
+  { "segment": "regulars", "angle": "price_value", "format": "search_text", "score": 45.5, "performance_points": 12.9, "impressions": 71600, "leads": 222, "expected_leads": 307.2 },
+  { "segment": "families", "angle": "coaching", "format": "feed_image", "score": 45.0, "performance_points": 15.8, "impressions": 37700, "leads": 23, "expected_leads": 27.2 },
+  { "segment": "students", "angle": "coaching", "format": "story_image", "score": 44.9, "performance_points": 17.8, "impressions": 68600, "leads": 31, "expected_leads": 30.1 },
+  { "segment": "students", "angle": "coaching", "format": "search_text", "score": 44.6, "performance_points": 17.5, "impressions": 0, "leads": 0, "expected_leads": 0 },
+  { "segment": "new_starters", "angle": "price_value", "format": "feed_image", "score": 44.4, "performance_points": 14.3, "impressions": 75700, "leads": 42, "expected_leads": 54.6 },
+  { "segment": "students", "angle": "open_24_7", "format": "search_text", "score": 44.3, "performance_points": 16.1, "impressions": 21600, "leads": 84, "expected_leads": 92.7 },
+  { "segment": "students", "angle": "open_24_7", "format": "feed_image", "score": 43.6, "performance_points": 15.4, "impressions": 56400, "leads": 34, "expected_leads": 40.6 },
+  { "segment": "families", "angle": "coaching", "format": "search_text", "score": 43.0, "performance_points": 13.8, "impressions": 39700, "leads": 131, "expected_leads": 170.3 },
+  { "segment": "students", "angle": "coaching", "format": "feed_image", "score": 43.0, "performance_points": 15.9, "impressions": 8200, "leads": 4, "expected_leads": 5.9 },
+  { "segment": "new_starters", "angle": "open_24_7", "format": "story_image", "score": 41.9, "performance_points": 15.2, "impressions": 60200, "leads": 21, "expected_leads": 26.4 },
+  { "segment": "new_starters", "angle": "open_24_7", "format": "search_text", "score": 41.1, "performance_points": 14.4, "impressions": 91800, "leads": 322, "expected_leads": 393.8 },
+  { "segment": "students", "angle": "classes", "format": "story_image", "score": 40.4, "performance_points": 14.7, "impressions": 68700, "leads": 23, "expected_leads": 30.1 },
+  { "segment": "students", "angle": "classes", "format": "feed_image", "score": 40.3, "performance_points": 14.6, "impressions": 47400, "leads": 26, "expected_leads": 34.2 },
+  { "segment": "new_starters", "angle": "open_24_7", "format": "feed_image", "score": 40.1, "performance_points": 13.4, "impressions": 64600, "leads": 32, "expected_leads": 46.6 },
+  { "segment": "students", "angle": "classes", "format": "search_text", "score": 37.5, "performance_points": 11.8, "impressions": 51400, "leads": 144, "expected_leads": 220.5 }
+ ]
+}

@@ -1,0 +1,9 @@
+[
+ {"variant_id": "b2c-r1-b1-v2", "impressions": 9000, "clicks": 410, "leads": 44, "spend": 395.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b2-v1", "impressions": 7000, "clicks": 300, "leads": 25, "spend": 280.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b2-v2", "impressions": 8000, "clicks": 350, "leads": 30, "spend": 340.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b3-v1", "impressions": 15000, "clicks": 120, "leads": 5, "spend": 130.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b3-v2", "impressions": 15500, "clicks": 130, "leads": 9, "spend": 140.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b4-v1", "impressions": 21000, "clicks": 290, "leads": 31, "spend": 300.0, "weeks_running": 4},
+ {"variant_id": "b2c-r1-b4-v2", "impressions": 19500, "clicks": 250, "leads": 24, "spend": 265.0, "weeks_running": 4}
+]

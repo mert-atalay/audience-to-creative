@@ -1,0 +1,99 @@
+# Harbour Fitness Corporate (B2B): the same invented business selling workplace wellness plans to employers.
+# CRM rows are companies. They are enriched with firmographics by company domain. No people are enriched.
+id: b2b
+business: Harbour Fitness Corporate
+audience: Employers buying a workplace wellness plan
+as_of: "2026-09-30"
+won_stage: customer
+
+brand:
+  name: Harbour Fitness Corporate
+  spelling: {pattern: "harbou?r\\s*fitness", correct: "Harbour Fitness"}
+  colours: {background: "#102A43", panel: "#1F4E79", accent: "#F2B134", text: "#FFFFFF", muted: "#C9D6E2", button_text: "#102A43"}
+  font_family: "Helvetica, Arial, sans-serif"
+
+competitors: [Tallyfit Benefits, Quorum Wellness Co, Bluepier Health Plans]
+
+formats: [linkedin_image, search_text]
+hooks: [question, direct, proof]
+
+# Segments use the enriched firmographic fields. The first rule that matches wins.
+segments:
+  - {id: shift_employers, label: Shift-based employers, match: {industry: [logistics, healthcare, hospitality, manufacturing]}, keywords: [shift, warehouse]}
+  - {id: small_offices, label: Small offices, match: {size_band: ["1-49"]}, keywords: [small business, small team]}
+  - {id: midsize_offices, label: Mid-size offices, match: {size_band: ["50-249"]}, keywords: [growing team]}
+  - {id: large_employers, label: Large employers, match: {}, keywords: [enterprise]}
+
+guardrails:
+  banned_claims:
+    - {name: guarantee, pattern: "guarantee"}
+    - {name: unsupported percentage, pattern: "\\d+ ?%"}
+    - {name: medical claim, pattern: "\\b(cures?|treats?|heals?|medical|clinically)\\b|sick days"}
+  disclaimers:
+    - {name: pilot offer, trigger: "\\bpilot\\b", text: "Pilot terms apply."}
+
+angles:
+  wellbeing:
+    label: Employee wellbeing
+    keywords: [wellbeing, stress, burnout, healthier]
+    answers: [not_a_priority]
+    copy:
+      headlines: {question: "Is your team running on empty?", direct: "Wellbeing your team will use", proof: "Workshops and gym access"}
+      body:
+        - 'Teams tell us about "{phrase}". Harbour Fitness Corporate pairs gym access with wellbeing workshops for your staff.'
+        - "Gym access and wellbeing workshops in one workplace plan."
+      cta: Learn More
+  recruitment:
+    label: Hiring and retention
+    keywords: [retention, retain, recruit, hiring, attract]
+    answers: [benefit_not_valued]
+    copy:
+      headlines:
+        question: "Hard to retain good people?"
+        direct: "A perk candidates ask about"
+        # This headline breaks the banned-claims rule on purpose, so the demo shows a rejection.
+        proof: "Cuts staff turnover by 30%"
+      body:
+        - 'Employers ask us about "{phrase}". Add a gym and wellbeing plan to every job offer you make.'
+        - "Add a gym and wellbeing plan to every job offer."
+      cta: Learn More
+  easy_admin:
+    label: Simple admin
+    keywords: [admin, invoice, payroll, onboarding, paperwork]
+    answers: [admin_burden]
+    copy:
+      headlines: {question: "Small HR team, long to-do list?", direct: "One invoice. No paperwork.", proof: "Add or remove staff in a click"}
+      body:
+        - 'HR teams ask about "{phrase}". One monthly invoice, self-serve sign up for staff, nothing to chase.'
+        - "One monthly invoice. Staff sign themselves up."
+      cta: Request Demo
+  flexible_access:
+    label: Access for every shift and site
+    keywords: [shift, locations, sites, "24/7", multi site, second site]
+    answers: [locations_mismatch]
+    copy:
+      headlines: {question: "Night shift left out of perks?", direct: "Every site. Every shift.", proof: "Open 24/7 for every shift"}
+      body:
+        - 'Employers mention "{phrase}". Staff can use every Harbour Fitness location, 24/7, whatever their shift.'
+        - "Every location, 24/7, whatever the shift."
+      cta: Learn More
+  cost_per_employee:
+    label: Clear per-seat pricing
+    keywords: [price, pricing, cost, budget, seats, per seat]
+    answers: [over_budget]
+    copy:
+      headlines: {question: "Need a price you can plan?", direct: "Clear per-seat pricing", proof: "Start with a free pilot"}
+      body:
+        - 'Finance teams ask about "{phrase}". One clear price per seat, with a free pilot before you commit.'
+        - "One clear price per seat. Free pilot first."
+      cta: Request Demo
+  uptake:
+    label: Usage you can see
+    keywords: [uptake, usage, actually use, report, engagement]
+    answers: [low_expected_uptake]
+    copy:
+      headlines: {question: "Will staff actually use it?", direct: "See usage every month", proof: "A usage report for the board"}
+      body:
+        - 'Employers ask about "{phrase}". You get a monthly usage report, so you can see what the plan delivers.'
+        - "A monthly usage report shows what the plan delivers."
+      cta: Request Demo

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" role="img" aria-label="b2c-r2-b1-v2: Never been to a gym before?" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="1080" fill="#0B3954"/>
+<circle cx="1080" cy="1080" r="453" fill="#12507A"/>
+<circle cx="1080" cy="0" r="302" fill="#FF6B35"/>
+<rect x="81" y="81" width="64" height="64" rx="14" fill="#FF6B35"/>
+<path d="M93 119 q10 -19 20 0 t20 0" fill="none" stroke="#0B3954" stroke-width="6" stroke-linecap="round"/>
+<text x="164" y="125" font-size="32" font-weight="700" fill="#FFFFFF">Harbour Fitness</text>
+<rect x="81" y="523" width="125" height="9" fill="#FF6B35"/>
+<text x="81" y="651" font-size="104" font-weight="700" fill="#FFFFFF">Never been to a</text>
+<text x="81" y="767" font-size="104" font-weight="700" fill="#FFFFFF">gym before?</text>
+<rect x="81" y="852" width="346" height="99" rx="49" fill="#FF6B35"/>
+<text x="254" y="916" font-size="42" font-weight="700" text-anchor="middle" fill="#0B3954">Book Now</text>
+<text x="81" y="999" font-size="25" fill="#BFD7EA">Terms apply.</text>
+</svg>

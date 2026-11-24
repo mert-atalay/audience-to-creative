@@ -1,0 +1,8 @@
+[
+ {"variant_id": "b2b-r1-b1-v1", "impressions": 6000, "clicks": 210, "leads": 14, "spend": 520.0, "weeks_running": 4},
+ {"variant_id": "b2b-r1-b2-v1", "impressions": 26000, "clicks": 150, "leads": 5, "spend": 610.0, "weeks_running": 4},
+ {"variant_id": "b2b-r1-b2-v2", "impressions": 20000, "clicks": 120, "leads": 6, "spend": 480.0, "weeks_running": 4},
+ {"variant_id": "b2b-r1-b3-v2", "impressions": 25000, "clicks": 140, "leads": 4, "spend": 590.0, "weeks_running": 4},
+ {"variant_id": "b2b-r1-b4-v1", "impressions": 24000, "clicks": 150, "leads": 9, "spend": 600.0, "weeks_running": 4},
+ {"variant_id": "b2b-r1-b4-v2", "impressions": 22000, "clicks": 140, "leads": 8, "spend": 560.0, "weeks_running": 4}
+]

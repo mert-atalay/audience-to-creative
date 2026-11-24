@@ -1,0 +1,9 @@
+[
+ {"variant_id": "b2b-r1-b1-v1", "decision": "approved", "note": "Fine as a search ad."},
+ {"variant_id": "b2b-r1-b2-v1", "decision": "approved", "note": ""},
+ {"variant_id": "b2b-r1-b2-v2", "decision": "rejected", "note": "The pilot offer is not confirmed for small offices yet."},
+ {"variant_id": "b2b-r1-b3-v1", "decision": "rejected", "note": "Tone is too negative for an employer audience."},
+ {"variant_id": "b2b-r1-b3-v2", "decision": "approved", "note": ""},
+ {"variant_id": "b2b-r1-b4-v1", "decision": "approved", "note": "Explore test."},
+ {"variant_id": "b2b-r1-b4-v2", "decision": "approved", "note": "Explore test. Confirm the self-serve flow is live first."}
+]
