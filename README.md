@@ -4,6 +4,10 @@ An end-to-end example pipeline: audience intelligence, then creative recommendat
 
 **All data here is synthetic.** The businesses ("Harbour Fitness" and "Harbour Fitness Corporate") and their competitors are invented. Any resemblance to a real company is a coincidence. This is an example of an approach, not a production system. It follows the shape of systems I build in my work, rebuilt from scratch on invented data.
 
+![Three example ads from the pipeline: two square feed ads and one wide LinkedIn ad](docs/samples.jpg)
+
+*Three of the example ads. The scene is a generated photo; the logo, headline and button are placed by code. These are examples made for this repository, not the creatives from my job.*
+
 ![Gallery page: segments, ranked briefs and creatives with their review status](docs/gallery.png)
 
 *The gallery page for the B2C example: segments built from the data, then briefs ranked by a score you can read part by part.*
@@ -11,6 +15,8 @@ An end-to-end example pipeline: audience intelligence, then creative recommendat
 ![Generated creatives with their review status and guardrail results, including one rejected for a banned claim](docs/creatives.png)
 
 *Further down the same page: the generated variants. Each waits for a person to approve it. One was rejected automatically for promising guaranteed results.*
+
+**About the images.** The photos are example scenes made once with an image model for this repository. They are not the creatives from my job, which belong to my employer and stay private. What carries over is the method: the model supplies only the scene, and the logo, headline, button and disclaimer are placed on top by code, so brand marks and words are never left to an image model.
 
 **The full design behind this example is in [docs/methodology.md](docs/methodology.md):** twelve stages on Google Cloud, including vision tagging, image and video generation, and the review and release steps, with a label on each stage saying whether it runs in production at my job, ran as a pilot, exists in this repository, or is designed only.
 
@@ -136,7 +142,7 @@ For each brief the generator writes one copy variant per hook type (headline, pr
 
 These limits are the commonly recommended lengths as I understand them. Check them against each platform's current documentation before relying on them.
 
-Visuals are SVG files drawn from a brand template: brand colours, a generic font family, a simple shape as the logo, the headline and a button. Text is wrapped and sized to fit. If it cannot fit, the variant is rejected instead of drawn with overflow.
+Visuals are SVG files built in two layers. The bottom layer is a scene photo for the brief's angle, bundled in `assets/scenes/` (made once with an image model, see the note there). The top layer is drawn by code from a brand template: a simple shape as the logo, the brand name, the headline, a button and any required disclaimer. Text is wrapped and sized to fit. If it cannot fit, the variant is rejected instead of drawn with overflow. An angle with no bundled scene falls back to a plain brand-colour background. The pipeline itself never calls an image model, so runs and tests are repeatable.
 
 There are two generators behind one interface:
 
@@ -147,7 +153,7 @@ There are two generators behind one interface:
 
 Variants that pass the guardrails are written with status `pending`. A person approves or rejects each one with a note, using `python -m pipeline review`. Variants that fail a guardrail get status `rejected_by_guardrails` and cannot be approved.
 
-`gallery.html` is one self-contained page: inline CSS, inline SVG, no scripts, no external requests. It follows the system light or dark setting and works at phone width. It shows the segments, the ranked briefs with their score breakdown and evidence counts, the creatives with status and guardrail results, and the memory log.
+`gallery.html` is one self-contained page: inline CSS, inline SVG with the scene photos embedded, no scripts, no external requests. It follows the system light or dark setting and works at phone width. It shows the segments, the ranked briefs with their score breakdown and evidence counts, the creatives with status and guardrail results, and the memory log.
 
 Outputs go through a storage interface with two backends: a local folder (default) and Google Cloud Storage.
 

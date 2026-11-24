@@ -5,7 +5,11 @@ sans-serif, with a safety margin. Text that cannot fit raises FitError instead o
 """
 from __future__ import annotations
 
+import base64
 from html import escape
+from pathlib import Path
+
+SCENES = Path(__file__).resolve().parent.parent / "assets" / "scenes"
 
 _WIDTHS = {
     **{c: 0.28 for c in " iljI.,:;!|'"},
@@ -20,6 +24,12 @@ LINE_HEIGHT = 1.12
 
 class FitError(ValueError):
     pass
+
+
+def scene_for(profile_name: str, angle: str) -> bytes | None:
+    """The background photo for an angle, if one is bundled. See assets/scenes/README.md."""
+    path = SCENES / profile_name / f"{angle}.jpg"
+    return path.read_bytes() if path.exists() else None
 
 
 def text_width(text: str, size: float, bold: bool = False) -> float:
@@ -87,34 +97,55 @@ def layout(copy: dict, profile: dict, spec: dict, disclaimers: list[str] | None 
             "cta_size": cta_size, "headline_size": size, "lines": lines, "first_baseline": round(first_baseline)}
 
 
-def render(copy: dict, profile: dict, spec: dict, disclaimers: list[str] | None = None, title: str = "") -> str:
-    """One self-contained SVG. No external fonts, images or links."""
+def render(copy: dict, profile: dict, spec: dict, disclaimers: list[str] | None = None, title: str = "",
+           scene: bytes | None = None) -> str:
+    """One self-contained SVG. No external fonts, images or links.
+
+    With a scene, the photo is embedded as the background and darkened towards the bottom. The logo,
+    headline, button and disclaimer are still placed by this code, never drawn by an image model.
+    """
     L = layout(copy, profile, spec, disclaimers)
     c, font = profile["brand"]["colours"], profile["brand"]["font_family"]
     W, H, pad, logo = L["W"], L["H"], L["pad"], L["logo"]
     bx, by, bw, bh = L["button"]
     size = L["headline_size"]
     bar_y = L["first_baseline"] - size * 0.85 - size * 0.38
+    text, muted = ("#FFFFFF", "#E6EBF0") if scene else (c["text"], c["muted"])
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
         f'aria-label="{escape(title or copy["headline"])}" font-family="{escape(font)}">',
         f'<rect width="{W}" height="{H}" fill="{c["background"]}"/>',
-        f'<circle cx="{W}" cy="{H}" r="{round(L["radius"] * 1.5)}" fill="{c["panel"]}"/>',
-        f'<circle cx="{W}" cy="0" r="{L["radius"]}" fill="{c["accent"]}"/>',
+    ]
+    if scene:
+        shade = "shade-" + "".join(ch if ch.isalnum() else "-" for ch in (title or copy["headline"]).lower())[:40]
+        parts += [
+            f'<defs><linearGradient id="{shade}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0.45"/>'
+            f'<stop offset="0.3" stop-color="#000" stop-opacity="0.1"/><stop offset="0.62" stop-color="#000" stop-opacity="0.72"/>'
+            f'<stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient></defs>',
+            f'<image href="data:image/jpeg;base64,{base64.b64encode(scene).decode()}" width="{W}" height="{H}" '
+            f'preserveAspectRatio="xMidYMid slice"/>',
+            f'<rect width="{W}" height="{H}" fill="url(#{shade})"/>',
+        ]
+    else:
+        parts += [
+            f'<circle cx="{W}" cy="{H}" r="{round(L["radius"] * 1.5)}" fill="{c["panel"]}"/>',
+            f'<circle cx="{W}" cy="0" r="{L["radius"]}" fill="{c["accent"]}"/>',
+        ]
+    parts += [
         # Logo: a rounded square with a wave, standing in for a real mark.
         f'<rect x="{pad}" y="{pad}" width="{logo}" height="{logo}" rx="{round(logo * 0.22)}" fill="{c["accent"]}"/>',
         f'<path d="M{pad + logo * 0.18:.0f} {pad + logo * 0.6:.0f} q{logo * 0.16:.0f} -{logo * 0.3:.0f} {logo * 0.32:.0f} 0 '
         f't{logo * 0.32:.0f} 0" fill="none" stroke="{c["background"]}" stroke-width="{max(3, round(logo * 0.1))}" stroke-linecap="round"/>',
         f'<text x="{round(pad + logo * 1.3)}" y="{round(pad + logo * 0.68)}" font-size="{L["brand_size"]}" font-weight="700" '
-        f'fill="{c["text"]}">{escape(profile["brand"]["name"])}</text>',
+        f'fill="{text}">{escape(profile["brand"]["name"])}</text>',
         f'<rect x="{pad}" y="{bar_y:.0f}" width="{round(size * 1.2)}" height="{max(6, round(size * 0.09))}" fill="{c["accent"]}"/>',
     ]
     for i, line in enumerate(L["lines"]):
         y = round(L["first_baseline"] + i * size * LINE_HEIGHT)
-        parts.append(f'<text x="{pad}" y="{y}" font-size="{size}" font-weight="700" fill="{c["text"]}">{escape(line)}</text>')
+        parts.append(f'<text x="{pad}" y="{y}" font-size="{size}" font-weight="700" fill="{text}">{escape(line)}</text>')
     parts.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="{bh // 2}" fill="{c["accent"]}"/>')
     parts.append(f'<text x="{bx + bw // 2}" y="{round(by + bh / 2 + L["cta_size"] * 0.35)}" font-size="{L["cta_size"]}" '
                  f'font-weight="700" text-anchor="middle" fill="{c["button_text"]}">{escape(copy["cta"])}</text>')
     if L["note"]:
-        parts.append(f'<text x="{pad}" y="{H - pad}" font-size="{L["note_size"]}" fill="{c["muted"]}">{escape(L["note"])}</text>')
+        parts.append(f'<text x="{pad}" y="{H - pad}" font-size="{L["note_size"]}" fill="{muted}">{escape(L["note"])}</text>')
     return "\n".join(parts) + "\n</svg>\n"

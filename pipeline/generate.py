@@ -165,7 +165,8 @@ def make_variants(briefs: list[dict], generator, profile: dict, competitors: lis
             svg_key = None
             if spec.get("visual"):
                 try:
-                    visuals[f"creatives/{vid}.svg"] = svg.render(copy, profile, spec, disclaimers, title=f"{vid}: {copy['headline']}")
+                    visuals[f"creatives/{vid}.svg"] = svg.render(copy, profile, spec, disclaimers, title=f"{vid}: {copy['headline']}",
+                                                                 scene=svg.scene_for(profile["id"], brief["angle"]))
                     svg_key = f"creatives/{vid}.svg"
                     checks.append({"rule": "visual_fit", "passed": True, "detail": "ok"})
                 except svg.FitError as exc:

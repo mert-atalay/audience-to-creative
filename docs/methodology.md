@@ -96,7 +96,7 @@ Approved still images go to an image-to-video model with tight settings: short c
 
 ### 9. Brand compositing. **Pilot**, and **This repo**
 
-Image models distort logos and misspell text. So the model never draws either. The logo and all words are placed afterwards by ordinary code from a template, and a small file beside each asset records where they went. In this repository the same idea produces the SVG visuals.
+Image models distort logos and misspell text. So the model never draws either. The logo and all words are placed afterwards by ordinary code from a template, and a small file beside each asset records where they went. This repository does the same: a generated scene photo underneath, and the logo, headline and button placed on top by code.
 
 ### 10. Guardrails and provenance. **Pilot**, and **This repo**
 
@@ -134,7 +134,7 @@ Every brief and variant is logged with its reason and evidence, then with its re
 | 4 | `pipeline/audience.py`, rule-based, with evidence ids |
 | 5 | `pipeline/recommend.py` |
 | 6 | Not modelled; briefs come straight from the scores |
-| 7, 8 | Template visuals stand in for the image and video models |
+| 7, 8 | One example scene photo per angle, made once with an image model and bundled in `assets/scenes/`. They are not the creatives from my job. The planner, the visual reviewer and video are not modelled |
 | 9 | `pipeline/svg.py` |
 | 10 | `pipeline/guardrails.py`, `pipeline/storage.py` |
 | 11 | `pipeline/review.py` |

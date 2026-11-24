@@ -151,7 +151,7 @@ def build(profile: dict, audience: dict, briefs: dict, variants: dict, visuals: 
 <title>{e(profile['business'])}: audience to creative</title><style>{CSS}</style></head><body><main>
 <h1>{e(profile['business'])}: audience to creative</h1>
 <p class="muted">{e(profile['audience'])}. Run {briefs['run']}, data as of {e(audience['as_of'])}, {e(variants['generator'])} generator.</p>
-<p class="notice">All data on this page is synthetic. The business and its competitors are invented. Nothing here was published or run as a real ad.</p>
+<p class="notice">All data on this page is synthetic. The business and its competitors are invented. Nothing here was published or run as a real ad. The photos are example scenes made with an image model for this repository; the logo, headline and button are placed on top by code.</p>
 <h2>1. Segments</h2><p class="muted">Built by rules from {e(records)} records. Every figure traces to record ids in audience.json.</p>
 <div class="grid">{''.join(_segment(s) for s in audience['segments'])}</div>
 <h2>2. Ranked briefs</h2><p class="muted">{briefs['considered']} segment, angle and format combinations scored. Weights: {e(weights)}.

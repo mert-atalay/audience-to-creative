@@ -1,3 +1,4 @@
+import re
 import xml.etree.ElementTree as ET
 
 import pytest
@@ -62,7 +63,8 @@ def test_demo_visuals_are_valid_and_fit(demo_dir, name):
     for v in with_visual:
         markup = (demo_dir / name / v["svg"]).read_text()
         assert_text_fits(markup)
-        assert "<image" not in markup and "href" not in markup
+        # The only image is the bundled scene, embedded as data. Nothing is fetched.
+        assert all(h.startswith("data:image/jpeg;base64,") for h in re.findall(r'href="([^"]{0,30})', markup))
 
 
 def test_overflowing_text_is_rejected_not_drawn():

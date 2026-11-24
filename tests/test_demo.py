@@ -25,8 +25,10 @@ def test_demo_writes_every_output(demo_dir, name):
 
 def test_gallery_is_self_contained(demo_dir, name):
     html = (demo_dir / name / "gallery.html").read_text()
+    # The bundled scene photos are embedded as data and shaded by a local gradient. Neither is a request.
+    checked = html.replace('href="data:image/jpeg;base64,', "").replace("url(#shade-", "")
     for banned in ("<script", "<link", "<img", "<iframe", "@import", "url(", " src=", "href="):
-        assert banned not in html, banned
+        assert banned not in checked, banned
     assert "prefers-color-scheme:dark" in html and 'name="viewport"' in html
     assert html.count("<svg") == sum(1 for v in read(demo_dir, name, "variants.json")["variants"] if v["svg"])
     assert "synthetic" in html and "rejected by guardrails" in html and "explore" in html
