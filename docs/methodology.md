@@ -57,6 +57,8 @@ Every live ad image is copied once into a private storage bucket, keyed by a con
 
 ### 3. Vision tagging. **Production**, with one honest caveat
 
+A small public version of this stage, run on generated sample ads, is in [creative-tagger](https://github.com/mert-atalay/creative-tagger).
+
 A vision model tags each stored creative against a fixed visual taxonomy: format, people and setting, text amount, offer, call to action, composition. A multimodal embedding is stored beside the tags so similar creatives can be found without relying on the tags alone.
 
 Simple baseline models then check whether tags explain click-through rate, retraining weekly behind promotion gates. The caveat: the visual model has not passed its gate yet, so tags inform analysis but do not rank anything. That is the gate working as intended. Tags do not get to drive decisions until a hand-labelled calibration set shows the tagger agrees with people often enough.
@@ -128,7 +130,7 @@ Every brief and variant is logged with its reason and evidence, then with its re
 | Design stage | In this repository |
 | --- | --- |
 | 1, 2 | Seeded fixture data in place of a warehouse and a vault |
-| 3 | Creative attributes arrive already tagged in the fixtures |
+| 3 | Creative attributes arrive already tagged in the fixtures. The tagging step itself is a separate repository, [creative-tagger](https://github.com/mert-atalay/creative-tagger), with a real vision-model run and its measured agreement |
 | 4 | `pipeline/audience.py`, rule-based, with evidence ids |
 | 5 | `pipeline/recommend.py` |
 | 6 | Not modelled; briefs come straight from the scores |
