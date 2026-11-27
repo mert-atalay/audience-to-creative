@@ -2,6 +2,8 @@
 
 An end-to-end example pipeline: audience intelligence, then creative recommendations, then generated ad creative, with a human approval step and a memory of what was tried.
 
+Related interactive concept on [mertatalay.com](https://mertatalay.com): [Creative Experiment Memory](https://mertatalay.com/lab/creative-experiment-memory/).
+
 **All data here is synthetic.** The businesses ("Harbour Fitness" and "Harbour Fitness Corporate") and their competitors are invented. Any resemblance to a real company is a coincidence. This is an example of an approach, not a production system. It follows the shape of systems I build in my work, rebuilt from scratch on invented data.
 
 ![Three example ads from the pipeline: two square feed ads and one wide LinkedIn ad](docs/samples.jpg)
